@@ -4,8 +4,8 @@
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
         <i class="fa fa-map-marker" style="width:30px"></i>Sarajevo, BiH<br>
-        <i class="fa fa-phone" style="width:30px"></i>  <strong>Band Email: </strong> basheskia@gmail.com<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> <strong>Personal Email: </strong>nedimzlatar@gmail.com
+        <i class="fa fa-envelope" style="width:30px"></i>  <strong>Band Email: </strong> basheskia@gmail.com<br>
+        <i class="fa fa-envelope-o" style="width:30px"> </i> <strong>Personal Email: </strong>nedimzlatar@gmail.com
       </div>
       <div class="w3-col m6">
         <form action="https://www.w3schools.com/action_page.php" target="_blank">
@@ -23,6 +23,6 @@
       </div>
     </div>
   </div>
-
+  
 <!-- End Page Content -->
 </div>

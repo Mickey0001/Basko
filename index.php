@@ -9,9 +9,11 @@
 <!-- The Band Section -->
 <?php include './includes/band.php';?>
 <!-- The Tour Section -->
-<?php include './includes/tour.php';?>
-<!-- Ticket Modal -->
-<?php include './includes/tickets_modal.php';?>
+<?php include './includes/video.php';?>
+<!-- Music Section -->
+<?php include './includes/music.php';?>
+<!-- Photos Section -->
+<?php include './includes/photos.php';?>
 <!-- The Contact Section -->
 <?php include './includes/contact.php';?>
 <!-- Footer -->

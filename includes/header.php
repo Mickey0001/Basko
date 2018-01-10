@@ -59,6 +59,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./stylesheets/w3.css">
     <link rel="stylesheet" href="./stylesheets/style.css">
+    <script defer src="https://use.fontawesome.com/9e297d863d.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <style>
         body {

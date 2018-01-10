@@ -1,13 +1,12 @@
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="w3-hover-opacity"><img src="images/fb.png" alt="FaceBook"></i>
-  <i class="w3-hover-opacity"><img src="images/yt.png" alt="YouTube"></i>
-  <i class="w3-hover-opacity"><img src="images/sc.png" alt="SoundCloud"></i>
-  <i class="w3-hover-opacity"><img src="images/sp.png" alt="Spotify"></i>
-  <i class="w3-hover-opacity"><img src="images/it.png" alt="iTunes"></i>
-  <p class="w3-medium">Basheskia & Edward EQ</p>
+<a class="w3-hover-opacity" href="https://www.facebook.com/BASHESKIA-EDWARD-EQ-83892532107/" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+<a class="w3-hover-opacity" href="https://www.youtube.com/user/staripionir" target="_blank"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+<a class="w3-hover-opacity" href="https://open.spotify.com/artist/75bkgEjebXg7u6CWDyNz77" target="_blank"><i class="fa fa-spotify fa-2x" aria-hidden="true"></i></a>
+<a class="w3-hover-opacity" href="https://soundcloud.com/basheskia" target="_blank"><i class="fa fa-soundcloud fa-2x" aria-hidden="true"></i></a>
+  <p class="w3-medium">&copy; 2018 Basheskia & Edward EQ</p>
 </footer>
 
-<script>
+<script async>
 // Automatic Slideshow - change image every 4 seconds
 var myIndex = 0;
 carousel();
