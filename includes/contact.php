@@ -1,11 +1,11 @@
 <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <h2 class="w3-wide w3-center">Info Contact</h2>
+    <p class="w3-opacity w3-center"><i>Questions? Get in touch!</i></p>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+        <i class="fa fa-map-marker" style="width:30px"></i>Sarajevo, BiH<br>
+        <i class="fa fa-phone" style="width:30px"></i>  <strong>Band Email: </strong> basheskia@gmail.com<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> <strong>Personal Email: </strong>nedimzlatar@gmail.com
       </div>
       <div class="w3-col m6">
         <form action="https://www.w3schools.com/action_page.php" target="_blank">
@@ -23,6 +23,6 @@
       </div>
     </div>
   </div>
-  
+
 <!-- End Page Content -->
 </div>

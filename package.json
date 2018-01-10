@@ -1,7 +1,7 @@
 {
   "name": "basko",
   "version": "1.0.0",
-  "description": "website for my homie",
+  "description": "Website for a friend.",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^3.3.7"

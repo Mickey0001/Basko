@@ -24,7 +24,7 @@
                 display: none
             }
         }
-        
+
         @media screen {
             .gm-style .gmnoscreen,
             .gmnoscreen {
@@ -38,7 +38,7 @@
             background-color: rgba(0, 0, 0, 0.45);
             text-align: center
         }
-        
+
         .gm-style-pbt {
             font-size: 22px;
             color: white;
@@ -50,18 +50,21 @@
             -ms-transform: translateY(-50%);
             transform: translateY(-50%)
         }
+        body{
+          font-family: "Montserrat";
+        }
     </style>
     <title>Basheskia & Edward EQ</title>
     <link rel="icon" href="favicon.ico" type="image/ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./stylesheets/w3.css">
     <link rel="stylesheet" href="./stylesheets/style.css">
-    <link rel="stylesheet" href="./stylesheets/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <style>
         body {
             font-family: "Lato", sans-serif
         }
-        
+
         .mySlides {
             display: none
         }
@@ -75,7 +78,7 @@
             font: 400 11px Roboto, Arial, sans-serif;
             text-decoration: none;
         }
-        
+
         .gm-style img {
             max-width: none;
         }
