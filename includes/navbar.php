@@ -1,13 +1,22 @@
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"></a>
-    <a href="#basko" class="w3-bar-item w3-button w3-padding-large"><i class="fa fa-home" aria-hidden="true"></i> HOME</a>
-    <a href="C:\xampp\htdocs\Basko\Basko\includes\band.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><i class="fa fa-headphones" aria-hidden="true"></i> BAND</a>
-    <a href="#video" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><i class="fa fa-video-camera" aria-hidden="true"></i> VIDEO/FILM</a>
-    <a href="#music" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><i class="fa fa-music" aria-hidden="true"></i> MUSIC</a>
-    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><i class="fa fa-camera" aria-hidden="true"></i> Photos</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><i class="fa fa-envelope" aria-hidden="true"></i> CONTACT</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="">Basheskia &amp; Edward EQ</a>
     </div>
-
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#myCarousel">HOME</a></li>
+        <li class=""><a href="">BAND</a></li>
+        <li class=""><a href="">MUSIC</a></li>
+        <li class=""><a href="">PHOTOS</a></li>
+        <li class=""><a href="">FILM</a></li>
+        <li class=""><a href="">CONTACT</a></li>
+      </ul>
+    </div>
   </div>
-</div>
+</nav>
