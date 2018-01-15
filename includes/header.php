@@ -14,6 +14,9 @@
   <script src="scripts/jquery.min.js"></script>
   <script src="scripts/bootstrap.min.js"></script>
   <style>
+  html {
+    width: 100%;  
+  }
   body {
       font: 400 15px/1.8 Lato, sans-serif;
       color: #777;
@@ -24,15 +27,15 @@
       font-size: 20px;
       color: #111;
   }
-  .container {
-      padding: 80px 120px;
-  }
   .person {
       border: 10px solid transparent;
       margin-bottom: 25px;
       width: 80%;
       height: 80%;
       opacity: 0.7;
+  }
+  .container {
+      margin: 0 auto;
   }
   .person:hover {
       border-color: #f1f1f1;
@@ -140,6 +143,9 @@
       background-color: #2d2d30;
       color: #f5f5f5;
       padding: 32px;
+      position: absolute;
+  bottom: 0;
+  width: 100%;
   }
   footer a {
       color: #f5f5f5;
@@ -159,5 +165,7 @@
         font: 400 11px Roboto, Arial, sans-serif;
         text-decoration: none;
       }
-      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="scripts/onion.js"></script><script type="text/javascript" charset="UTF-8" src="scripts/controls.js"></script><script type="text/javascript" charset="UTF-8" src="scripts/stats.js"></script></head>
+      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="scripts/onion.js"></script><script type="text/javascript" charset="UTF-8" src="scripts/controls.js"></script><script type="text/javascript" charset="UTF-8" src="scripts/stats.js"></script>
+      <script src="https://use.fontawesome.com/3cbbd02c11.js"></script>
+      </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" screen_capture_injected="true">

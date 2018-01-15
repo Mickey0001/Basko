@@ -13,6 +13,7 @@
 <!-- Photos Section -->
 <?php include './includes/photos.php';?>
 <!-- The Contact Section -->
+<?php include './includes/releases.php';?>
 <?php include './includes/contact.php';?>
 <!-- Footer -->
 <?php include './includes/footer.php';?>

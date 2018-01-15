@@ -1,7 +1,4 @@
-<!-- Footer -->
-<footer class="text-center">
-  <a class="up-arrow" href="" data-toggle="tooltip" title="" data-original-title="TO TOP">
-    <span class="glyphicon glyphicon-chevron-up"></span>
+<footer class="text-center col-md-12">
     <a ref="https://www.facebook.com/BASHESKIA-EDWARD-EQ-83892532107/" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
     <a href="https://www.youtube.com/user/staripionir" target="_blank"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
     <a href="https://open.spotify.com/artist/75bkgEjebXg7u6CWDyNz77" target="_blank"><i class="fa fa-spotify fa-2x" aria-hidden="true"></i></a>
