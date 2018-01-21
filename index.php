@@ -2,6 +2,8 @@
 <?php include './includes/header.php';?>
 <!-- Navbar -->
 <?php include './includes/navbar.php';?>
+<!-- Navbar on small screens -->
+<?php include './includes/mobile_nav.php';?>
 <!-- Automatic Slideshow Images -->
 <?php include './includes/slider.php';?>
 <!-- The Band Section -->
@@ -13,7 +15,6 @@
 <!-- Photos Section -->
 <?php include './includes/photos.php';?>
 <!-- The Contact Section -->
-<?php include './includes/releases.php';?>
 <?php include './includes/contact.php';?>
 <!-- Footer -->
 <?php include './includes/footer.php';?>
