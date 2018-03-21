@@ -1,0 +1,715 @@
+body {
+	background-color: #111111;
+	color: #666666;
+	color: rgba(0, 0, 0, 0.7);
+	font-family: 'Roboto';
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.65;
+	margin: 0px;
+	padding: 0px;
+}
+body#tinymce,
+body.wp-autoresize {
+	background-color: #ffffff;
+	box-sizing: border-box;
+	padding: 12px 24px !important;
+}
+
+/************************************************
+0.	Global
+************************************************/
+
+p {
+	padding: 16px 0px;
+	margin: 0px;
+}
+p:empty {
+	display: none;
+}
+dfn, cite, em, i {
+	font-style: italic;
+}
+strong, b {
+	font-weight: bold;
+}
+big {
+	font-size: 140%;
+}
+small {
+	font-size: 60%;
+}
+s {
+	text-decoration: line-through;
+}
+mark {
+	background: #ff0;
+	color: #000;
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+div {
+	display: block;
+}
+span {
+	display: inline;
+}
+hr {
+	border: 0;
+	width: 100%;
+	height: 1px;
+	color: #dddddd;
+	background-color: #dddddd;
+	margin: 6px 0px 8px 0px;
+	padding: 0px;
+}
+ol, ul {
+	list-style: none;
+	margin: 6px 0px;
+	padding: 0px 0px 0px 12px;
+}
+ol li {
+	list-style: inside;
+	list-style-type: decimal;
+	margin: 6px 0px;
+	padding: 0px 0px 0px 12px;
+}
+ul li {
+	list-style: inside;
+	list-style-type: square;
+	margin: 6px 0px;
+	padding: 0px 0px 0px 12px;
+}
+ul ol li, ul ol ul ol li {
+	list-style-type: decimal;
+}
+ol ul li, ol ul ol ul li {
+	list-style-type: square;
+}
+blockquote {
+	font-size: 130%;
+	margin: 18px 0px;
+	padding: 12px 24px;
+	border-left: 2px solid rgba(0, 0, 0, 0.12);
+}
+blockquote p {
+	margin: 0px;
+	padding: 0px;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+code, pre {
+	background: rgba(0, 0, 0, 0.04);
+	font-family: Courier, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 24px 0px;
+	padding: 6px 8px;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: 3px;
+}
+code {
+	display: inline;
+	white-space: normal;
+}
+pre {
+	display: block;
+	white-space: pre-line;
+}
+pre code {
+	padding: 0px;
+	border: none;
+	box-shadow: none;
+}
+img {
+	-ms-interpolation-mode: bicubic;
+	height: auto;
+}
+img, object, embed {
+	max-width: 100%;
+	margin: 0px auto 0px;
+}
+
+/************************************************
+1.	Hyperlinks
+************************************************/
+
+a img {
+	border: none;
+}
+a, a:link, a:visited {
+	color: #cc00cc;
+	text-decoration: none;
+	word-wrap: break-word;
+}
+a:focus, a:hover, a:active {
+	color: #ff33cc;
+	text-decoration: underline;
+}
+
+/************************************************
+2.	Headings
+************************************************/
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000000;
+	font-family: 'Anton';
+	font-weight: 400;
+	line-height: 1.1;
+	word-wrap: break-word;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 6px 0px;
+	padding: 6px 0px;
+}
+h1 {
+	font-size: 3.2em;
+}
+h2 {
+	font-size: 2.8em;
+}
+h3 {
+	font-size: 2.4em;
+}
+h4 {
+	font-size: 2em;
+}
+h5 {
+	font-size: 1.6em;
+}
+h6 {
+	font-size: 1.3em;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link,
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+	color: #ffffff;
+	text-decoration: none;
+	border: none;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+h1 a:focus, h2 a:focus, h3 a:focus, h4 a:focus, h5 a:focus, h6 a:focus,
+h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+	color: #ff33cc;
+	text-decoration: none;
+	border: none;
+}
+
+/************************************************
+8.	Pagination
+************************************************/
+
+.pagination {
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	line-height: 36px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	margin: 0px auto;
+	padding: 0px;
+	position: relative;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	overflow: hidden;
+	z-index: 7;
+}
+.pagination .page-numbers {
+	float: left;
+	background: #ffffff;
+	color: #666666;
+	min-height: 36px;
+	min-width: 36px;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	border-left: 1px solid #dddddd;
+	border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+.pagination .page-numbers:first-child {
+	border-left: none;
+}
+.pagination .page-numbers:hover,
+.pagination .page-numbers:active {
+	background: #eeeeee;
+	min-height: 36px;
+	min-width: 36px;
+	line-height: 36px;
+	padding: 0px;
+}
+.pagination .page-numbers.current {
+	background: #eeeeee;
+	min-height: 36px;
+	min-width: 36px;
+	line-height: 36px;
+	padding: 0px;
+}
+
+/************************************************
+9.	Images
+************************************************/
+
+.avatar {
+	background: #ffffff;
+	margin: 10px 20px 10px 0px;
+	padding: 6px;
+}
+.author-avatar {
+	float: left;
+	display: block;
+	width: 20%;
+	margin-top: 20px;
+	padding-right: 3.6%;
+}
+.author-avatar .avatar {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+img.hide-img {
+	line-height: 0;
+	margin-left: -999em;
+	padding: 0px;
+}
+img.aligncenter {
+	display: block;
+	margin: 6px auto 6px;
+	padding: 0px;
+}
+img.alignnone {
+	padding: 0px;
+	margin: 6px 0px;
+	display: inline;
+}
+img.alignright {
+	padding: 0px;
+	margin: 12px 0px 12px 24px;
+	display: inline;
+}
+img.alignleft {
+	display: inline;
+	padding: 0px;
+	margin: 12px 24px 12px 0px;
+}
+.aligncenter {
+	display: block;
+	margin: 6px auto 6px;
+}
+.alignright {
+	float: right;
+	margin: 6px 0px 6px 24px;
+}
+.alignleft {
+	float: left;
+	margin: 6px 24px 6px 0px;
+}
+.wp-caption {
+	max-width: 100%;
+	line-height: 0;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding: 0px;
+	overflow: hidden;
+}
+.wp-caption a {
+	display: block;
+}
+.wp-caption img {
+	width: 100%;
+	margin: 0px auto 0px;
+	padding: 0px;
+}
+.wp-caption p.wp-caption-text,
+.wp-caption-dd {
+	font-size: 0.85em;
+	line-height: 1.6;
+	margin: 4px 0px;
+	padding: 6px 12px;
+	border-left: 2px solid rgba(255, 255, 255, 0.24);
+}
+
+/************************************************
+12.	WordPress Gallery
+************************************************/
+
+.gallery {
+	display: block;
+	text-align: center;
+	clear: both;
+	overflow: hidden;
+	margin: 12px auto 12px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+.gallery .gallery-row {
+	display:block;
+	clear: both;
+	overflow: hidden;
+	margin: 0;
+}
+.gallery .gallery-item {
+	overflow: hidden;
+	float: left;
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	position: absolute
+	bottom: 0
+}
+.gallery .gallery-item a {
+	display: block;
+	margin: 6px;
+	padding: 0px;
+	border: none;
+}
+.gallery .gallery-item img,
+.gallery .gallery-item img.thumbnail {
+	display: block;
+	background: #f4f4f4;
+	height: auto;
+	margin: 0 auto;
+	padding: 6px;
+	border: none !important;
+	border-radius: 2px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+	transition: all .25s;
+	-moz-transition: all .25s;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+}
+.gallery .gallery-item a:hover img {
+	background: #cc00cc;
+}
+.gallery-caption {
+	margin-left: 0;
+}
+
+/************************************************
+21.	Buttons
+************************************************/
+
+.button, a.button, #prevLink a, #nextLink a, a.more-link,
+input[type=submit], input.button {
+	display: inline-block;
+	position: relative;
+	background-color: #cc00cc;
+	color: #cccccc !important;
+	color: rgba(255, 255, 255, .7) !important;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 80%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 12px 24px;
+	border-radius: 24px;
+	border: none;
+	-webkit-appearance: none;
+}
+.button:hover, a.button:hover, #prevLink a:hover, #nextLink a:hover, a.more-link:hover,
+input[type=submit]:hover, input.button:hover {
+	background-color: #ff33cc;
+	color: #ffffff !important;
+	text-decoration: none;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, .15);
+	box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .2);
+	cursor: pointer;
+}
+p a.more-link {
+	margin-top: 24px;
+}
+
+/************************************************
+22. Columns
+************************************************/
+
+.content-columns {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+}
+.content-column {
+	float: left;
+	position: relative;
+	margin-right: 4%;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+.content-column:last-child {
+	float: right;
+	margin-right: 0;
+	clear: right;
+}
+.content-column:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.content-column.one-half {
+	width:48%;
+}
+.content-column.one-third {
+	width:30.66%;
+}
+.content-column.two-third {
+	width:65.33%;
+}
+.content-column.one-fourth {
+	width:22%;
+}
+.content-column.three-fourth {
+	width:74%;
+}
+.content-column.one-fifth {
+	width:16.8%;
+}
+.content-column.two-fifth {
+	width:37.6%;
+}
+.content-column.three-fifth {
+	width:58.4%;
+}
+.content-column.four-fifth {
+	width:67.2%;
+}
+.content-column.one-sixth {
+	width:13.33%;
+}
+.content-column.five-sixth {
+	width:82.67%;
+}
+
+/************************************************
+23. Tables
+************************************************/
+
+table {
+	width: 100%;
+	margin: 18px 0px;
+	padding: 0px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table thead,
+table tfoot {
+	border: 1px solid #dddddd;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+}
+table thead th,
+table tfoot td {
+	border: none;
+}
+table th {
+	background: #eeeeee;
+	background: rgba(0, 0, 0, 0.08);
+	font-size: 1.2em;
+	text-align: center;
+	margin: 0px;
+	padding: 8px 12px;
+	border: 1px solid #dddddd;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+}
+table td {
+	padding: 6px 12px;
+	margin: 0px;
+	border: 1px solid #dddddd;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+}
+
+/************************************************
+24. Forms
+************************************************/
+
+form {
+	display: block;
+}
+form div {
+	display: block;
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+form span {
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+form span.required {
+	display: inline;
+}
+form li,
+form ul,
+form ol {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+form legend {
+	font-weight: bold;
+	padding-top: 10px;
+}
+form label {
+	margin-top: 6px;
+}
+form li > label {
+	font-weight: bold;
+}
+form li li > label {
+	font-weight: normal;
+}
+form span label {
+	font-size: 0.8em;
+}
+form input,
+form input[type='url'],
+form input[type='tel'],
+form input[type='email'],
+form input[type='text'],
+form input[type='password'],
+form input[type='number'],
+form textarea {
+	display: block;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.04);
+	font-family: inherit;
+	font-size: 1em;
+	line-height: 1.4;
+	padding: 8px;
+	border: 4px solid rgba(0, 0, 0, 0.12);
+}
+form input[type='url'],
+form input[type='tel'],
+form input[type='email'],
+form input[type='text'],
+form input[type='password'],
+form input[type='number'] {
+	width: 50%;
+}
+form textarea {
+	width: 100%;
+}
+form input[type='checkbox'],
+form input[type='radio'] {
+	margin-left: 0px;
+	margin-right: 6px;
+}
+form input[type='submit'] {
+	margin-top: 0px;
+}
+form .form-submit {
+	padding: 8px 0px;
+}
+textarea {
+	overflow: auto;
+}
+address {
+	margin: 12px 0px;
+}
+select {
+	display: block;
+	background-color: rgba(0, 0, 0, 0.04);
+	color: rgba(0, 0, 0, 0);
+	text-shadow: 0 0 0 rgba(0, 0, 0, 0.4);
+	width: auto;
+	max-width: 100%;
+	font-size: 1.2em;
+	line-height: 1.6;
+	margin-bottom: 6px;
+	padding: 6px 46px 6px 8px !important;
+	box-shadow: none;
+	border-radius: 0px;
+	border: 4px solid rgba(0, 0, 0, 0.12);
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+
+	background-image:
+		linear-gradient(45deg, transparent 50%, gray 50%),
+		linear-gradient(135deg, gray 50%, transparent 50%),
+		linear-gradient(to right, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12));
+	background-position:
+		calc(100% - 16px) 50%,
+		calc(100% - 11px) 50%,
+		calc(100% - 32px) 6px;
+	background-size:
+		5px 5px,
+		5px 5px,
+		1px 1.5em;
+	background-repeat: no-repeat;
+
+	/* reset */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+/************************************************
+25.	CSS3 Styles
+************************************************/
+
+a, button, .button, #submit, #searchsubmit {
+	transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+}
+.shadow {
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+}
+.radius-full {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.radius-top {
+	border-radius: 3px 3px 0px 0px;
+	-moz-border-radius: 3px 3px 0px 0px;
+	-khtml-border-radius: 3px 3px 0px 0px;
+	-webkit-border-radius: 3px 3px 0px 0px;
+}
+.radius-bottom {
+	border-radius: 0px 0px 3px 3px;
+	-moz-border-radius: 0px 0px 3px 3px;
+	-khtml-border-radius: 0px 0px 3px 3px;
+	-webkit-border-radius: 0px 0px 3px 3px;
+}
+.radius-half {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-khtml-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}

@@ -1,0 +1,13 @@
+{
+  "require": {
+
+    "aannnaa7/aws-sdk-php-minimized": "dev-master",
+    "wyrihaximus/react-guzzle-psr7": "^2.0"
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+
+}
+
+

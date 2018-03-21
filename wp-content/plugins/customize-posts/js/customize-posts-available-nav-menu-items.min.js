@@ -1,0 +1,1 @@
+!function(a){a("#available-menu-items-search .accordion-section-content").addClass("available-menu-items-list")}(jQuery);

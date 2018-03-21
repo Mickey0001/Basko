@@ -1,2 +1,0 @@
-# Basko
-Website for Basheskia

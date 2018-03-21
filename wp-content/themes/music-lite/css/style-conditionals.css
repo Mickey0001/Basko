@@ -1,0 +1,359 @@
+/************************************************
+	Conditionals
+************************************************/
+
+/* Menu Color Brightness */
+
+.music-lite-bg-light .site-title a,
+.music-lite-bg-light .site-title a:link,
+.music-lite-bg-light .site-title a:visited {
+	color: #000000;
+}
+.music-lite-bg-dark .site-title a,
+.music-lite-bg-dark .site-title a:link,
+.music-lite-bg-dark .site-title a:visited {
+	color: #ffffff;
+}
+#nav-bar.music-lite-bg-light #navigation .menu .current_page_item a,
+#nav-bar.music-lite-bg-light #navigation .menu .current_page_ancestor a,
+#nav-bar.music-lite-bg-light #navigation .menu .current-menu-item a,
+#nav-bar.music-lite-bg-light #navigation .menu .current-cat a,
+#nav-bar.music-lite-bg-light #navigation .menu li .current_page_item a,
+#nav-bar.music-lite-bg-light #navigation .menu li .current_page_item a:hover,
+#nav-bar.music-lite-bg-light #navigation .menu li .current-menu-item a,
+#nav-bar.music-lite-bg-light #navigation .menu li .current-menu-item a:hover,
+#nav-bar.music-lite-bg-light #navigation .menu li .current-cat a,
+#nav-bar.music-lite-bg-light #navigation .menu li .current-cat a:hover,
+#nav-bar.music-lite-bg-light #navigation .menu li.current-menu-ancestor a,
+#nav-bar.music-lite-bg-light #navigation .menu li.current_page_ancestor a,
+#nav-bar.music-lite-bg-light #navigation .menu .current_page_item ul li a:hover,
+#nav-bar.music-lite-bg-light #navigation .menu .current-menu-item ul li a:hover,
+#nav-bar.music-lite-bg-light #navigation .menu .current-menu-ancestor ul li a:hover,
+#nav-bar.music-lite-bg-light #navigation .menu .current_page_ancestor ul li a:hover,
+#nav-bar.music-lite-bg-light #navigation .menu .current-menu-ancestor ul .current_page_item a,
+#nav-bar.music-lite-bg-light #navigation .menu .current_page_ancestor ul .current-menu-item a,
+#nav-bar.music-lite-bg-light #navigation .menu .current-cat ul li a:hover {
+	color: #000000;
+}
+#nav-bar.music-lite-bg-light #navigation .menu .current_page_item ul li a,
+#nav-bar.music-lite-bg-light #navigation .menu .current-menu-item ul li a,
+#nav-bar.music-lite-bg-light #navigation .menu .current-menu-ancestor ul li a,
+#nav-bar.music-lite-bg-light #navigation .menu .current_page_ancestor ul li a,
+#nav-bar.music-lite-bg-light #navigation .menu .current-cat ul li a {
+	color: rgba(0, 0, 0, 0.4);
+}
+#nav-bar.music-lite-bg-dark #navigation .menu .current_page_item a,
+#nav-bar.music-lite-bg-dark #navigation .menu .current_page_ancestor a,
+#nav-bar.music-lite-bg-dark #navigation .menu .current-menu-item a,
+#nav-bar.music-lite-bg-dark #navigation .menu .current-cat a,
+#nav-bar.music-lite-bg-dark #navigation .menu li .current_page_item a,
+#nav-bar.music-lite-bg-dark #navigation .menu li .current_page_item a:hover,
+#nav-bar.music-lite-bg-dark #navigation .menu li .current-menu-item a,
+#nav-bar.music-lite-bg-dark #navigation .menu li .current-menu-item a:hover,
+#nav-bar.music-lite-bg-dark #navigation .menu li .current-cat a,
+#nav-bar.music-lite-bg-dark #navigation .menu li .current-cat a:hover,
+#nav-bar.music-lite-bg-dark #navigation .menu li.current-menu-ancestor a,
+#nav-bar.music-lite-bg-dark #navigation .menu li.current_page_ancestor a,
+#nav-bar.music-lite-bg-dark #navigation .menu .current_page_item ul li a:hover,
+#nav-bar.music-lite-bg-dark #navigation .menu .current-menu-item ul li a:hover,
+#nav-bar.music-lite-bg-dark #navigation .menu .current-menu-ancestor ul li a:hover,
+#nav-bar.music-lite-bg-dark #navigation .menu .current_page_ancestor ul li a:hover,
+#nav-bar.music-lite-bg-dark #navigation .menu .current-menu-ancestor ul .current_page_item a,
+#nav-bar.music-lite-bg-dark #navigation .menu .current_page_ancestor ul .current-menu-item a,
+#nav-bar.music-lite-bg-dark #navigation .menu .current-cat ul li a:hover {
+	color: #ffffff;
+}
+#nav-bar.music-lite-bg-dark #navigation .menu .current_page_item ul li a,
+#nav-bar.music-lite-bg-dark #navigation .menu .current-menu-item ul li a,
+#nav-bar.music-lite-bg-dark #navigation .menu .current-menu-ancestor ul li a,
+#nav-bar.music-lite-bg-dark #navigation .menu .current_page_ancestor ul li a,
+#nav-bar.music-lite-bg-dark #navigation .menu .current-cat ul li a {
+	color: rgba(255, 255, 255, 0.6);
+}
+#nav-bar.music-lite-bg-dark .menu a,
+#nav-bar.music-lite-bg-dark .menu a:link,
+#nav-bar.music-lite-bg-dark .menu a:visited,
+#nav-bar.music-lite-bg-dark .mobile-menu a,
+#nav-bar.music-lite-bg-dark .mobile-menu a:link,
+#nav-bar.music-lite-bg-dark .mobile-menu a:visited {
+	color: #cccccc;
+	color: rgba(255, 255, 255, 0.6);
+	border-color: rgba(255, 255, 255, 0.24);
+}
+#nav-bar.music-lite-bg-light .menu a,
+#nav-bar.music-lite-bg-light .menu a:link,
+#nav-bar.music-lite-bg-light .menu a:visited,
+#nav-bar.music-lite-bg-light .mobile-menu a,
+#nav-bar.music-lite-bg-light .mobile-menu a:link,
+#nav-bar.music-lite-bg-light .mobile-menu a:visited {
+	color: #999999;
+	color: rgba(0, 0, 0, 0.4);
+}
+#nav-bar.music-lite-bg-dark .menu a:focus,
+#nav-bar.music-lite-bg-dark .menu a:hover,
+#nav-bar.music-lite-bg-dark .menu a:active,
+#nav-bar.music-lite-bg-dark .mobile-menu a:focus,
+#nav-bar.music-lite-bg-dark .mobile-menu a:hover,
+#nav-bar.music-lite-bg-dark .mobile-menu a:active {
+	color: #ffffff;
+}
+#nav-bar.music-lite-bg-light .menu a:focus,
+#nav-bar.music-lite-bg-light .menu a:hover,
+#nav-bar.music-lite-bg-light .menu a:active,
+#nav-bar.music-lite-bg-light .mobile-menu a:focus,
+#nav-bar.music-lite-bg-light .mobile-menu a:hover,
+#nav-bar.music-lite-bg-light .mobile-menu a:active {
+	color: #000000;
+	color: rgba(0, 0, 0, 0.8);
+}
+#nav-bar.music-lite-bg-dark .menu ul.sub-menu,
+#nav-bar.music-lite-bg-dark .menu ul.children {
+	border-color: rgba(255, 255, 255, 0.24);
+}
+#nav-bar.music-lite-bg-dark button.menu-toggle svg {
+	fill: rgba(255, 255, 255, 0.6);
+}
+#nav-bar.music-lite-bg-dark button.menu-toggle:hover svg {
+	fill: rgba(255, 255, 255, 1);
+}
+
+/* Down-Facing Arrows */
+
+#nav-bar.music-lite-bg-light .sf-arrows .sf-with-ul:after {
+	border-top-color: #999999;
+	border-top-color: rgba(0, 0, 0, 0.4);
+}
+#nav-bar.music-lite-bg-dark .sf-arrows .sf-with-ul:after {
+	border-top-color: #999999;
+	border-top-color: rgba(255, 255, 255, 0.4);
+}
+#nav-bar.music-lite-bg-light .sf-arrows li > .sf-with-ul:focus:after,
+#nav-bar.music-lite-bg-light .sf-arrows li:hover > .sf-with-ul:after,
+#nav-bar.music-lite-bg-light .sf-arrows li.sfHover > .sf-with-ul:after {
+	border-top-color: rgba(0, 0, 0, 0.8);
+}
+#nav-bar.music-lite-bg-dark .sf-arrows li > .sf-with-ul:focus:after,
+#nav-bar.music-lite-bg-dark .sf-arrows li:hover > .sf-with-ul:after,
+#nav-bar.music-lite-bg-dark .sf-arrows li.sfHover > .sf-with-ul:after {
+	border-top-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Right-Facing Arrows */
+
+#nav-bar.music-lite-bg-light .sf-arrows li li .sf-with-ul:after,
+#nav-bar.music-lite-bg-dark .sf-arrows li li .sf-with-ul:after {
+	margin-top: -3px;
+	margin-right: -3px;
+	border-top-color: transparent;
+}
+#nav-bar.music-lite-bg-light .sf-arrows li li .sf-with-ul:after {
+	border-left-color: #999999;
+	border-left-color: rgba(0, 0, 0, 0.4);
+}
+#nav-bar.music-lite-bg-dark .sf-arrows li li .sf-with-ul:after {
+	border-left-color: #999999;
+	border-left-color: rgba(255, 255, 255, 0.4);
+}
+#nav-bar.music-lite-bg-light .sf-arrows li li > .sf-with-ul:focus:after,
+#nav-bar.music-lite-bg-light .sf-arrows li li:hover > .sf-with-ul:after,
+#nav-bar.music-lite-bg-light .sf-arrows li li.sfHover > .sf-with-ul:after {
+	border-top-color: transparent;
+	border-left-color: rgba(0, 0, 0, 0.8);
+}
+#nav-bar.music-lite-bg-dark .sf-arrows li li > .sf-with-ul:focus:after,
+#nav-bar.music-lite-bg-dark .sf-arrows li li:hover > .sf-with-ul:after,
+#nav-bar.music-lite-bg-dark .sf-arrows li li.sfHover > .sf-with-ul:after {
+	border-top-color: transparent;
+	border-left-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Footer Color */
+
+.footer.music-lite-bg-dark, .footer.music-lite-bg-dark p {
+	color: rgba(255, 255, 255, 0.6);
+}
+.footer.music-lite-bg-dark h1, .footer.music-lite-bg-dark h2, .footer.music-lite-bg-dark h3,
+.footer.music-lite-bg-dark h4, .footer.music-lite-bg-dark h5, .footer.music-lite-bg-dark h6 {
+	color: #ffffff;
+}
+
+/* Background Image Brightness */
+
+.music-lite-bg-dark h1, .music-lite-bg-dark h2, .music-lite-bg-dark h3,
+.music-lite-bg-dark h4, .music-lite-bg-dark h5, .music-lite-bg-dark h6,
+.music-lite-bg-dark .headline {
+	color: #ffffff;
+}
+.music-lite-bg-dark, .music-lite-bg-dark p, .music-lite-bg-dark blockquote {
+	color: rgba(255, 255, 255, 0.8);
+}
+.music-lite-bg-dark blockquote {
+	border-color: rgba(255, 255, 255, 1);
+}
+.music-lite-bg-light h1, .music-lite-bg-light h2, .music-lite-bg-light h3,
+.music-lite-bg-light h4, .music-lite-bg-light h5, .music-lite-bg-light h6,
+.music-lite-bg-light .headline {
+	color: #000000;
+}
+.music-lite-bg-light, .music-lite-bg-light p, .music-lite-bg-light blockquote {
+	color: rgba(0, 0, 0, 0.6);
+}
+.music-lite-bg-light blockquote {
+	border-color: rgba(0, 0, 0, 1);
+}
+
+/* Body Class */
+
+.music-lite-header-video-active .wp-custom-header {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+.music-lite-header-video-active .wp-custom-header::before {
+	position: fixed;
+	pointer-events: none;
+	top: 0;
+	left: 0;
+	content: '';
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	z-index: 4;
+}
+.music-lite-header-video-active .wp-custom-header iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.music-lite-home-page.music-lite-header-video-active .wp-custom-header {
+	padding-bottom: 0px;
+}
+.music-lite-home-page.music-lite-header-video-active .wp-custom-header iframe {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	height: 100%;
+	width: 177.77777778vh;
+	min-width: 100%;
+	min-height: 56.25vw;
+}
+.music-lite-home-page.music-lite-header-video-active .wp-custom-header::before {
+	height: 100vh;
+}
+.music-lite-header-inactive.music-lite-desc-active #masthead .site-description {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+	top: auto;
+}
+.music-lite-header-inactive.music-lite-desc-inactive #custom-header {
+	min-height: 0;
+}
+.music-lite-logo-right #nav-bar .flex-row {
+	flex-direction: row-reverse;
+}
+.music-lite-logo-center #nav-bar .flex-row {
+	display: block;
+	text-align: center;
+}
+.music-lite-logo-center #nav-bar .site-logo {
+	display: block;
+}
+.music-lite-logo-center #nav-bar .site-title,
+.music-lite-logo-center #nav-bar .custom-logo-link {
+	text-align: center;
+	margin: 0px auto 0px;
+	padding-bottom: 0px;
+}
+.music-lite-logo-center #navigation {
+	display: block;
+	position: relative;
+	text-align: center;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+	right: auto;
+	top: auto;
+}
+.music-lite-desc-left #masthead .site-description {
+	text-align: left;
+}
+.music-lite-desc-right #masthead .site-description {
+	text-align: right;
+}
+.music-lite-desc-inactive #masthead {
+	display: none;
+}
+
+/* Elements */
+
+.music-lite-bg-dark table {
+	background: rgba(255, 255, 255, 0.04);
+}
+.music-lite-bg-dark table thead,
+.music-lite-bg-dark table tfoot,
+.music-lite-bg-dark table th,
+.music-lite-bg-dark table td {
+	border-color: rgba(255, 255, 255, 0.24);
+}
+.music-lite-bg-dark form input,
+.music-lite-bg-dark form input[type='url'],
+.music-lite-bg-dark form input[type='tel'],
+.music-lite-bg-dark form input[type='email'],
+.music-lite-bg-dark form input[type='text'],
+.music-lite-bg-dark form input[type='password'],
+.music-lite-bg-dark form input[type='number'],
+.music-lite-bg-dark form textarea {
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.06);
+	border-color: rgba(255, 255, 255, 0.24);
+}
+.music-lite-bg-dark select {
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.06);
+	text-shadow: 0 0 0 rgba(255, 255, 255, 0.4);
+	border-color: rgba(255, 255, 255, 0.24);
+	background-image:
+		linear-gradient(45deg, transparent 50%, white 50%),
+		linear-gradient(135deg, white 50%, transparent 50%),
+		linear-gradient(to right, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24));
+}
+.music-lite-bg-dark .article h1:first-child + p,
+.music-lite-bg-dark .article > p:first-child,
+.music-lite-bg-dark .article span + p {
+	color: #ffffff;
+}
+.music-lite-bg-dark code,
+.music-lite-bg-dark pre,
+.music-lite-bg-dark .project,
+.music-lite-bg-dark .testimonial,
+#nav-bar.music-lite-bg-dark,
+#nav-bar.music-lite-bg-dark .row,
+.footer.music-lite-bg-dark,
+.music-lite-bg-dark .post-date,
+.music-lite-bg-dark .post-taxonomy,
+.music-lite-bg-dark .post-navigation,
+.sidebar.music-lite-bg-dark .widget,
+.music-lite-bg-dark .social-icons li,
+.wp-custom-header.music-lite-bg-dark,
+.banner-img.music-lite-bg-dark,
+.music-lite-bg-dark .commentlist li,
+.music-lite-bg-dark .commentlist li:last-child,
+.music-lite-bg-dark .archive-title {
+	border-color: rgba(255, 255, 255, 0.24);
+}
+.music-lite-bg-dark .footer-information a,
+.music-lite-bg-dark .social-icons li a {
+	color: rgba(255, 255, 255, 0.7);
+}
+.music-lite-bg-dark .footer-information a:hover,
+.music-lite-bg-dark .social-icons li a:hover {
+	color: #ffffff;
+}

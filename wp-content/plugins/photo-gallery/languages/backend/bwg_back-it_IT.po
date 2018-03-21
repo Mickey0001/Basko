@@ -1,0 +1,3758 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: photo-gallery\n"
+"POT-Creation-Date: 2017-01-31 16:50+0400\n"
+"PO-Revision-Date: 2017-01-31 16:55+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: photo-gallery-notices.php:202 photo-gallery-notices.php:220
+msgid "Hey! How's It Going?"
+msgstr "Ehi! Come sta andando?"
+
+#: photo-gallery-notices.php:204 photo-gallery-notices.php:214
+#: photo-gallery-notices.php:224
+msgid "Never show again"
+msgstr "Non mostrare più"
+
+#: photo-gallery-notices.php:209
+msgid "Leave A Review?"
+msgstr "Lascia un recensione?"
+
+#: photo-gallery-notices.php:210
+#, php-format
+msgid ""
+"We hope you've enjoyed using WordPress %s! Would you consider leaving us a "
+"review on WordPress.org?"
+msgstr ""
+
+#: photo-gallery-notices.php:211
+msgid "Sure! I'd love to!"
+msgstr "Certo! Mi piacerebbe!"
+
+#: photo-gallery-notices.php:212
+msgid "I've already left a review"
+msgstr "Ho già lasciato una recensione"
+
+#: photo-gallery-notices.php:213
+msgid "Maybe Later"
+msgstr "Forse più tardi"
+
+#: photo-gallery-notices.php:221
+#, php-format
+msgid ""
+"Thank you for using WordPress %s! We hope that you've found everything you "
+"need, but if you have any questions:"
+msgstr ""
+
+#: photo-gallery-notices.php:222
+msgid "Check out User Guide"
+msgstr "Scopri Guida per l-utente"
+
+#: photo-gallery-notices.php:223
+msgid "Get Some Help"
+msgstr "Avere un aiuto"
+
+#: photo-gallery.php:52
+msgid "Add Galleries/Images"
+msgstr "Aggiungere Gallerie / Immagini"
+
+#: photo-gallery.php:57 photo-gallery.php:1982
+msgid "Albums"
+msgstr "Album"
+
+#: photo-gallery.php:62
+msgid "Tags"
+msgstr "Tag"
+
+#: photo-gallery.php:67
+msgid "Options"
+msgstr "Opzioni"
+
+#: photo-gallery.php:71
+msgid "Themes"
+msgstr "Temi"
+
+#: photo-gallery.php:76
+msgid "Generate Shortcode"
+msgstr "Genera Shortcode"
+
+#: photo-gallery.php:78
+msgid "Get Pro"
+msgstr ""
+
+#: photo-gallery.php:81
+msgid "Featured Plugins"
+msgstr "In primo piano Plugin"
+
+#: photo-gallery.php:82
+msgid "Featured Themes"
+msgstr "Temi in vetrina"
+
+#: photo-gallery.php:84
+msgid "Uninstall"
+msgstr "Disinstallare"
+
+#: photo-gallery.php:88
+msgid "Photo Gallery Add-ons"
+msgstr "Photo Gallery Add-ons"
+
+#: photo-gallery.php:1711 photo-gallery.php:1859 photo-gallery.php:1904
+msgid "field is required."
+msgstr "il campo è obbligatiorio."
+
+#: photo-gallery.php:1712 photo-gallery.php:1860
+msgid "You must select an image file."
+msgstr "È necessario selezionare un file di immag.."
+
+#: photo-gallery.php:1713 photo-gallery.php:1861
+msgid "You must select an audio file."
+msgstr "È necessario selezionare un file audio."
+
+#: photo-gallery.php:1714
+msgid ""
+"You do not have Instagram CLIENT_ID. Input its value in Options->Embed "
+"options. "
+msgstr ""
+"Non si dispone di Instagram client_id. Ingresso suo valore nelle opzioni "
+"Opzioni-> Incorpora."
+
+#: photo-gallery.php:1715 photo-gallery.php:1863
+msgid "Instagram recent post number must be between 1 and 33."
+msgstr ""
+"Instagram recente numero dei tuoi messaggi deve essere compreso tra 1 e 33."
+
+#: photo-gallery.php:1716 photo-gallery.php:1864
+msgid "The gallery is not empty. Please delete all the images first."
+msgstr ""
+"La galleria non è vuoto. Si prega di eliminare prima tutte le immagini."
+
+#: photo-gallery.php:1717 photo-gallery.php:1865
+msgid "Please enter url to embed."
+msgstr "Si prega di inserire l-URL per incorporare."
+
+#: photo-gallery.php:1718 photo-gallery.php:1866
+msgid "Error: cannot get response from the server."
+msgstr "Errore: non può ottenere risposta dal server."
+
+#: photo-gallery.php:1719 photo-gallery.php:1867
+msgid "Error: something wrong happened at the server."
+msgstr "Errore: qualcosa di sbagliato è accaduto sul server."
+
+#: photo-gallery.php:1720 photo-gallery.php:1868
+msgid "Error"
+msgstr "Errore"
+
+#: photo-gallery.php:1721 photo-gallery.php:1869
+msgid "Show order column"
+msgstr "Colonna Mostra ordine"
+
+#: photo-gallery.php:1722 photo-gallery.php:1870
+#: admin/views/BWGViewAlbums_bwg.php:87
+#: admin/views/BWGViewGalleries_bwg.php:87
+msgid "Hide order column"
+msgstr "Colonna Hide ordine"
+
+#: photo-gallery.php:1723 photo-gallery.php:1871
+msgid "Selected"
+msgstr ""
+
+#: photo-gallery.php:1724 photo-gallery.php:1872 framework/WDWLibrary.php:285
+#: framework/WDWLibrary.php:434
+msgid "item"
+msgstr "voce"
+
+#: photo-gallery.php:1725 photo-gallery.php:1873
+msgid "Items Succesfully Saved."
+msgstr ""
+
+#: photo-gallery.php:1726 photo-gallery.php:1874
+msgid "Item Succesfully Recovered."
+msgstr ""
+
+#: photo-gallery.php:1727 photo-gallery.php:1875
+#: admin/controllers/BWGControllerGalleries_bwg.php:961
+#: framework/WDWLibrary.php:73
+msgid "Item Succesfully Published."
+msgstr ""
+
+#: photo-gallery.php:1728 photo-gallery.php:1876
+#: admin/controllers/BWGControllerGalleries_bwg.php:998
+#: framework/WDWLibrary.php:85
+msgid "Item Succesfully Unpublished."
+msgstr ""
+
+#: photo-gallery.php:1729 photo-gallery.php:1877
+#: admin/controllers/BWGControllerGalleries_bwg.php:916
+#: framework/WDWLibrary.php:37
+msgid "Item Succesfully Deleted."
+msgstr ""
+
+#: photo-gallery.php:1730 photo-gallery.php:1878
+#: admin/controllers/BWGControllerGalleries_bwg.php:952
+#: admin/controllers/BWGControllerGalleries_bwg.php:989
+#: admin/controllers/BWGControllerGalleries_bwg.php:1026
+#: admin/controllers/BWGControllerGalleries_bwg.php:1105
+#: admin/controllers/BWGControllerGalleries_bwg.php:1191
+#: framework/WDWLibrary.php:55
+msgid "You must select at least one item."
+msgstr ""
+
+#: photo-gallery.php:1731 photo-gallery.php:1879
+msgid "Items Succesfully resized."
+msgstr ""
+
+#: photo-gallery.php:1732 photo-gallery.php:1880
+msgid "Watermarks Succesfully Set."
+msgstr ""
+
+#: photo-gallery.php:1733 photo-gallery.php:1881
+msgid "Items Succesfully Reset."
+msgstr ""
+
+#: photo-gallery.php:1734
+#, fuzzy
+msgid "Save Tag"
+msgstr "Salva"
+
+#: photo-gallery.php:1735 admin/views/BWGViewGalleries_bwg.php:186
+#: admin/views/BWGViewGalleries_bwg.php:1016
+#: admin/views/BWGViewThemes_bwg.php:86
+msgid "Do you want to delete selected items?"
+msgstr "Vuoi eliminare gli elementi selezionati?"
+
+#: photo-gallery.php:1736 photo-gallery.php:1738
+msgid ""
+"This action will reset gallery type to mixed and will save that choice. You "
+"cannot undo it."
+msgstr ""
+
+#: photo-gallery.php:1737
+msgid ""
+"After pressing save/apply buttons, you cannot change gallery type back to "
+"Instagram!"
+msgstr ""
+
+#: photo-gallery.php:1862
+msgid ""
+"You do not have Instagram access token. Sign in with Instagram in Options-"
+">Social options. "
+msgstr ""
+
+#: photo-gallery.php:1905
+msgid "This is not a valid email address."
+msgstr "Questo non è un indirizzo e-mail valido."
+
+#: photo-gallery.php:1906 frontend/views/BWGViewAlbum_compact_preview.php:438
+#: frontend/views/BWGViewAlbum_extended_preview.php:251
+msgid "There are no images matching your search."
+msgstr "Non ci sono immagini che corrispondono ai criteri di ricerca."
+
+#: photo-gallery.php:1909
+#, fuzzy
+msgid "Select Tag"
+msgstr "Seleziona tag."
+
+#: photo-gallery.php:1910 framework/WDWLibrary.php:188
+#: framework/WDWLibrary.php:362 framework/WDWLibrary.php:684
+msgid "Search"
+msgstr "Ricerca"
+
+#: photo-gallery.php:1968
+msgid "Galleries"
+msgstr "Gallerie"
+
+#: photo-gallery.php:1996
+#, fuzzy
+msgid "Gallery tags"
+msgstr "Galleria"
+
+#: addons/addons.php:5
+msgid "Photo Gallery Ecommerce"
+msgstr ""
+
+#: addons/addons.php:7
+msgid ""
+"Using Photo Gallery Ecommerce you can sell images included in galleries "
+"either as digital downloads or products/prints via Paypal or Stripe."
+msgstr ""
+
+#: addons/addons.php:12
+msgid "Photo Gallery Facebook"
+msgstr "Galleria fotografica Facebook"
+
+#: addons/addons.php:14
+msgid ""
+"Photo Gallery Facebook is an add-on, which helps to display Facebook photos "
+"and videos within Photo Gallery plugin. You can create Facebook-only "
+"galleries, embed individual images and videos or include Facebook albums "
+"within mixed type albums."
+msgstr ""
+"Photo Gallery Facebook è un add-on, che aiuta a visualizzare le foto di "
+"Facebook e video all-'interno di Photo Gallery plugin. È possibile creare "
+"Facebook sola gallerie, singole immagini e video incorporare o includere "
+"album di Facebook all-interno di altri album di tipo misto."
+
+#: addons/addons.php:19
+msgid "NextGen Gallery Import to Photo Gallery"
+msgstr "NextGen Galleria Importa all`album fotografico"
+
+#: addons/addons.php:21
+msgid ""
+"This addon integrates NextGen with Photo Gallery allowing to import images "
+"and related data from NextGen to use with Photo Gallery"
+msgstr ""
+"Questo addon si integra NextGen con Photo Gallery permette di importare le "
+"immagini ei dati correlati da NextGen da usare con Photo Gallery"
+
+#: addons/addons.php:26
+msgid "Photo Gallery Export / Import"
+msgstr "Photo Gallery Export / Import"
+
+#: addons/addons.php:28
+msgid ""
+"Photo Gallery Export/Import helps to move created galleries and albums from "
+"one site to another. This way you can save the gallery/album options and "
+"manual modifications."
+msgstr ""
+"Photo Gallery Export / Import aiuta a spostare gallerie create e album da un "
+"sito all-altro. In questo modo è possibile salvare le opzioni galleria / "
+"album e modifiche manuali."
+
+#: admin/controllers/BWGControllerGalleries_bwg.php:735
+#: admin/controllers/BWGControllerGalleries_bwg.php:876
+#: admin/controllers/BWGControllerOptions_bwg.php:109
+#: admin/views/BWGViewTags_bwg.php:52 framework/WDWLibrary.php:25
+msgid "Item Succesfully Saved."
+msgstr "Voce SUCCESSO salvati."
+
+#: admin/controllers/BWGControllerGalleries_bwg.php:879
+#: admin/controllers/BWGControllerGalleries_bwg.php:919
+#: admin/controllers/BWGControllerGalleries_bwg.php:964
+#: admin/controllers/BWGControllerGalleries_bwg.php:1001
+#: framework/WDWLibrary.php:31
+msgid "Error. Please install plugin again."
+msgstr ""
+
+#: admin/controllers/BWGControllerGalleries_bwg.php:902
+#: framework/WDWLibrary.php:97
+msgid "Ordering Succesfully Saved."
+msgstr ""
+
+#: admin/controllers/BWGControllerGalleries_bwg.php:949
+#: framework/WDWLibrary.php:49
+msgid "Items Succesfully Deleted."
+msgstr ""
+
+#: admin/controllers/BWGControllerGalleries_bwg.php:986
+#: framework/WDWLibrary.php:79
+msgid "Items Succesfully Published."
+msgstr ""
+
+#: admin/controllers/BWGControllerGalleries_bwg.php:1023
+#: framework/WDWLibrary.php:91
+msgid "Items Succesfully Unpublished."
+msgstr ""
+
+#: admin/controllers/BWGControllerGalleries_bwg.php:1108
+msgid "Thumb Succesfully Resized"
+msgstr ""
+
+#: admin/controllers/BWGControllerGalleries_bwg.php:1194
+#, fuzzy
+msgid "Items successfully rotated."
+msgstr "Voce SUCCESSO salvati."
+
+#: admin/controllers/BWGControllerOptions_bwg.php:106
+#, fuzzy
+msgid "All thumbnails are successfully recreated."
+msgstr "La miniatura croped successo."
+
+#: admin/views/BWGViewAddAlbumsGalleries.php:52
+msgid "ADD"
+msgstr ""
+
+#: admin/views/BWGViewAddAlbumsGalleries.php:56
+#: admin/views/BWGViewAddTags.php:54 admin/views/BWGViewAlbums_bwg.php:63
+#: admin/views/BWGViewAlbums_bwg.php:111
+#: admin/views/BWGViewGalleries_bwg.php:63
+#: admin/views/BWGViewGalleries_bwg.php:111 admin/views/BWGViewTags_bwg.php:71
+#: admin/views/BWGViewTags_bwg.php:91
+msgid "Name"
+msgstr "Nome"
+
+#: admin/views/BWGViewAddAlbumsGalleries.php:96
+msgid "Album"
+msgstr "Album"
+
+#: admin/views/BWGViewAddAlbumsGalleries.php:96
+msgid "Gallery"
+msgstr "Galleria"
+
+#: admin/views/BWGViewAlbums_bwg.php:38
+#: admin/views/BWGViewGalleries_bwg.php:38
+#: admin/views/BWGViewGalleries_bwg.php:712
+msgid "Publish"
+msgstr "Pubblicare"
+
+#: admin/views/BWGViewAlbums_bwg.php:39
+#: admin/views/BWGViewGalleries_bwg.php:39
+#: admin/views/BWGViewGalleries_bwg.php:713
+msgid "Unpublish"
+msgstr "Annulla pubblicazione"
+
+#: admin/views/BWGViewAlbums_bwg.php:40 admin/views/BWGViewAlbums_bwg.php:139
+#: admin/views/BWGViewAlbums_bwg.php:173
+#: admin/views/BWGViewGalleries_bwg.php:40
+#: admin/views/BWGViewGalleries_bwg.php:140
+#: admin/views/BWGViewGalleries_bwg.php:186
+#: admin/views/BWGViewGalleries_bwg.php:715
+#: admin/views/BWGViewGalleries_bwg.php:899
+#: admin/views/BWGViewGalleries_bwg.php:1016
+#: admin/views/BWGViewTags_bwg.php:63 admin/views/BWGViewTags_bwg.php:111
+msgid "Delete"
+msgstr "Cancellare"
+
+#: admin/views/BWGViewAlbums_bwg.php:67
+#: admin/views/BWGViewGalleries_bwg.php:67
+#: admin/views/BWGViewGalleries_bwg.php:741 admin/views/BWGViewTags_bwg.php:60
+#: filemanager/view.php:264 filemanager/view.php:349
+msgid "Select All"
+msgstr "Seleziona tutto"
+
+#: admin/views/BWGViewAlbums_bwg.php:70
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/views/BWGViewAlbums_bwg.php:81
+msgid "Apply"
+msgstr "Applicare"
+
+#: admin/views/BWGViewAlbums_bwg.php:88
+#: admin/views/BWGViewGalleries_bwg.php:88
+msgid "Save Order"
+msgstr "Salva Ordine"
+
+#: admin/views/BWGViewAlbums_bwg.php:105
+#: admin/views/BWGViewGalleries_bwg.php:105
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: admin/views/BWGViewAlbums_bwg.php:119
+#: admin/views/BWGViewGalleries_bwg.php:119 admin/views/BWGViewTags_bwg.php:99
+msgid "Slug"
+msgstr "Lumaca"
+
+#: admin/views/BWGViewAlbums_bwg.php:127
+#: admin/views/BWGViewGalleries_bwg.php:127
+msgid "Author"
+msgstr "Autore"
+
+#: admin/views/BWGViewAlbums_bwg.php:135
+#: admin/views/BWGViewGalleries_bwg.php:136
+msgid "Published"
+msgstr "Pubblicato"
+
+#: admin/views/BWGViewAlbums_bwg.php:138 admin/views/BWGViewAlbums_bwg.php:166
+#: admin/views/BWGViewAlbums_bwg.php:170
+#: admin/views/BWGViewGalleries_bwg.php:139
+#: admin/views/BWGViewGalleries_bwg.php:178
+#: admin/views/BWGViewGalleries_bwg.php:714
+#: admin/views/BWGViewTags_bwg.php:110
+msgid "Edit"
+msgstr "Modifica"
+
+#: admin/views/BWGViewAlbums_bwg.php:207
+#, fuzzy
+msgid "Edit album "
+msgstr "Modifica galleria"
+
+#: admin/views/BWGViewAlbums_bwg.php:207
+#, fuzzy
+msgid "Create new album"
+msgstr "Creare nuova galleria"
+
+#: admin/views/BWGViewAlbums_bwg.php:341
+#: admin/views/BWGViewGalleries_bwg.php:655
+msgid "Add Preview Image"
+msgstr "Aggiungere Anteprima immagine"
+
+#: admin/views/BWGViewBWGShortcode.php:35
+#: admin/views/BWGViewThemes_bwg.php:199 admin/views/BWGViewThemes_bwg.php:233
+msgid "None"
+msgstr "Nessuno"
+
+#: admin/views/BWGViewBWGShortcode.php:36
+msgid "Cube Horizontal"
+msgstr "Cube orizzontale"
+
+#: admin/views/BWGViewBWGShortcode.php:37
+msgid "Cube Vertical"
+msgstr "Cube verticale"
+
+#: admin/views/BWGViewBWGShortcode.php:38
+msgid "Fade"
+msgstr "Dissolvenza"
+
+#: admin/views/BWGViewBWGShortcode.php:39
+msgid "Slice Horizontal"
+msgstr "Slice orizzontale"
+
+#: admin/views/BWGViewBWGShortcode.php:40
+msgid "Slice Vertical"
+msgstr "Fetta verticale"
+
+#: admin/views/BWGViewBWGShortcode.php:41
+msgid "Slide Horizontal"
+msgstr "Far scorrere orizzontale"
+
+#: admin/views/BWGViewBWGShortcode.php:42
+msgid "Slide Vertical"
+msgstr "Scorrimento verticale"
+
+#: admin/views/BWGViewBWGShortcode.php:43
+msgid "Scale Out"
+msgstr "Scala Out"
+
+#: admin/views/BWGViewBWGShortcode.php:44
+msgid "Scale In"
+msgstr "Scala in"
+
+#: admin/views/BWGViewBWGShortcode.php:45
+msgid "Block Scale"
+msgstr "Blocco Scala"
+
+#: admin/views/BWGViewBWGShortcode.php:46
+msgid "Kaleidoscope"
+msgstr "Caleidoscopio"
+
+#: admin/views/BWGViewBWGShortcode.php:47
+msgid "Fan"
+msgstr "Ventilatore"
+
+#: admin/views/BWGViewBWGShortcode.php:48
+msgid "Blind Horizontal"
+msgstr "Persiane orizzontali"
+
+#: admin/views/BWGViewBWGShortcode.php:49
+msgid "Blind Vertical"
+msgstr "Cieco verticale"
+
+#: admin/views/BWGViewBWGShortcode.php:50 framework/WDWLibrary.php:757
+msgid "Random"
+msgstr "Casuale"
+
+#: admin/views/BWGViewBWGShortcode.php:226
+msgid "Tag:"
+msgstr ""
+
+#: admin/views/BWGViewBWGShortcode.php:229
+#, fuzzy
+msgid "All Tags"
+msgstr "Tag"
+
+#: admin/views/BWGViewBWGShortcode.php:622
+#: admin/views/BWGViewOptions_bwg.php:276
+msgid "This effect is disabled in free version."
+msgstr ""
+
+#: admin/views/BWGViewBWGShortcode.php:630
+#: admin/views/BWGViewBWGShortcode.php:821
+msgid "Interval between two images."
+msgstr "Intervallo tra due immagini."
+
+#: admin/views/BWGViewBWGShortcode.php:630
+#: admin/views/BWGViewBWGShortcode.php:821
+#: admin/views/BWGViewOptions_bwg.php:286
+#: admin/views/BWGViewOptions_bwg.php:537
+#, fuzzy
+msgid "Effect duration:"
+msgstr "Abilita commenti moderazione:"
+
+#: admin/views/BWGViewBWGShortcode.php:1006
+#: admin/views/BWGViewOptions_bwg.php:1101
+#: admin/views/BWGViewThemes_bwg.php:483 admin/views/BWGViewThemes_bwg.php:666
+#: admin/views/BWGViewThemes_bwg.php:994
+#: admin/views/BWGViewThemes_bwg.php:1053
+#: admin/views/BWGViewThemes_bwg.php:1263
+#: admin/views/BWGViewThemes_bwg.php:1502
+#: admin/views/BWGViewThemes_bwg.php:1562
+#: admin/views/BWGViewThemes_bwg.php:1865
+#: admin/views/BWGViewThemes_bwg.php:2002
+#: admin/views/BWGViewThemes_bwg.php:2081
+#: admin/views/BWGViewThemes_bwg.php:2190
+#: admin/views/BWGViewThemes_bwg.php:2909
+#: admin/views/BWGViewThemes_bwg.php:3045
+#: admin/views/BWGViewThemes_bwg.php:3092
+#: admin/views/BWGViewThemes_bwg.php:3166
+#: admin/views/BWGViewThemes_bwg.php:3343
+msgid "Google fonts"
+msgstr ""
+
+#: admin/views/BWGViewBWGShortcode.php:1008
+#: admin/views/BWGViewOptions_bwg.php:1103
+#: admin/views/BWGViewThemes_bwg.php:485 admin/views/BWGViewThemes_bwg.php:668
+#: admin/views/BWGViewThemes_bwg.php:996
+#: admin/views/BWGViewThemes_bwg.php:1055
+#: admin/views/BWGViewThemes_bwg.php:1265
+#: admin/views/BWGViewThemes_bwg.php:1504
+#: admin/views/BWGViewThemes_bwg.php:1564
+#: admin/views/BWGViewThemes_bwg.php:1867
+#: admin/views/BWGViewThemes_bwg.php:2004
+#: admin/views/BWGViewThemes_bwg.php:2083
+#: admin/views/BWGViewThemes_bwg.php:2192
+#: admin/views/BWGViewThemes_bwg.php:2911
+#: admin/views/BWGViewThemes_bwg.php:3047
+#: admin/views/BWGViewThemes_bwg.php:3094
+#: admin/views/BWGViewThemes_bwg.php:3168
+#: admin/views/BWGViewThemes_bwg.php:3345 framework/WDWLibrary.php:754
+msgid "Default"
+msgstr "Predefinito"
+
+#: admin/views/BWGViewBWGShortcode.php:1079
+msgid "Generate"
+msgstr "Generare"
+
+#: admin/views/BWGViewBWGShortcode.php:1080
+msgid "Import"
+msgstr "Importazione"
+
+#: admin/views/BWGViewBWGShortcode.php:1136
+msgid "There is no shortcode with such ID!"
+msgstr "Non vi è alcun shortcode con tale ID!"
+
+#: admin/views/BWGViewBWGShortcode.php:1924
+msgid "Image thumbnail dimensions:"
+msgstr "Dimensioni immagine di anteprima:"
+
+#: admin/views/BWGViewBWGShortcode.php:1925
+msgid "Image thumbnail width: "
+msgstr "Immagine Larghezza miniatura:"
+
+#: admin/views/BWGViewBWGShortcode.php:1926
+msgid "Max. number of image columns:"
+msgstr "Max. numero di colonne di immag.:"
+
+#: admin/views/BWGViewBWGShortcode.php:1927
+msgid "Image thumbnail height:"
+msgstr "Immagine altezza miniatura:"
+
+#: admin/views/BWGViewBWGShortcode.php:1928
+msgid "Number of image rows:"
+msgstr "Numero di file di immagini:"
+
+#: admin/views/BWGViewEditThumb.php:757
+#: admin/views/BWGViewGalleries_bwg.php:381
+#: admin/views/BWGViewGalleries_bwg.php:964
+msgid "Do you want to reset the image?"
+msgstr "Vuoi ripristinare l'immagine?"
+
+#: admin/views/BWGViewGalleries_bwg.php:130
+msgid "Images count"
+msgstr "Immagini contano"
+
+#: admin/views/BWGViewGalleries_bwg.php:222
+msgid "Edit gallery"
+msgstr "Modifica galleria"
+
+#: admin/views/BWGViewGalleries_bwg.php:222
+msgid "Create new gallery"
+msgstr "Creare nuova galleria"
+
+#: admin/views/BWGViewGalleries_bwg.php:706
+msgid "Set Watermark"
+msgstr "Imposta Watermark"
+
+#: admin/views/BWGViewGalleries_bwg.php:707
+msgid "Resize"
+msgstr "Ridimensiona"
+
+#: admin/views/BWGViewGalleries_bwg.php:708
+msgid "Recreate Thumbnail"
+msgstr "Ricreare Thumbnail"
+
+#: admin/views/BWGViewGalleries_bwg.php:709
+msgid "Rotate left"
+msgstr ""
+
+#: admin/views/BWGViewGalleries_bwg.php:710
+msgid "Rotate right"
+msgstr ""
+
+#: admin/views/BWGViewGalleries_bwg.php:711 framework/WDWLibrary.php:187
+#: framework/WDWLibrary.php:361 framework/WDWLibrary.php:681
+msgid "Reset"
+msgstr "Azzerare"
+
+#: admin/views/BWGViewGalleries_bwg.php:736 framework/WDWLibrary.php:755
+msgid "Filename"
+msgstr "Nome del file"
+
+#: admin/views/BWGViewGalleries_bwg.php:825
+#, fuzzy
+msgid "Update"
+msgstr "Aggiornamenti"
+
+#: admin/views/BWGViewGalleries_bwg.php:826
+msgid "Cancel"
+msgstr "Annullare"
+
+#: admin/views/BWGViewGalleries_bwg.php:873
+msgid "Redirect"
+msgstr "Reindirizzare"
+
+#: admin/views/BWGViewGalleries_bwg.php:889
+msgid "Add tag"
+msgstr "Aggiungi tag"
+
+#: admin/views/BWGViewOptions_bwg.php:89 admin/views/BWGViewThemes_bwg.php:275
+msgid "Do you want to reset to default?"
+msgstr "Vuoi resetta di default?"
+
+#: admin/views/BWGViewOptions_bwg.php:115
+msgid "Thumbnail options"
+msgstr "Opzioni Miniatura"
+
+#: admin/views/BWGViewOptions_bwg.php:117
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: admin/views/BWGViewOptions_bwg.php:119
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: admin/views/BWGViewOptions_bwg.php:121
+msgid "Album options"
+msgstr "Opzioni Album"
+
+#: admin/views/BWGViewOptions_bwg.php:123
+msgid "Image options"
+msgstr "Opzioni immagine"
+
+#: admin/views/BWGViewOptions_bwg.php:125
+msgid "Carousel"
+msgstr "Carosello"
+
+#: admin/views/BWGViewOptions_bwg.php:127
+msgid "Advertisement"
+msgstr "Pubblicità"
+
+#: admin/views/BWGViewOptions_bwg.php:1256
+msgid "Show search box:"
+msgstr "Mostra casella di ricerca:"
+
+#: admin/views/BWGViewOptions_bwg.php:1259
+#: admin/views/BWGViewOptions_bwg.php:1377
+#: admin/views/BWGViewWidgetSlideshow.php:149
+#: admin/views/BWGViewWidgetSlideshow.php:155
+#: admin/views/BWGViewWidgetSlideshow.php:161
+msgid "Yes"
+msgstr "Sì"
+
+#: admin/views/BWGViewOptions_bwg.php:1260
+#: admin/views/BWGViewOptions_bwg.php:1378
+#: admin/views/BWGViewWidgetSlideshow.php:150
+#: admin/views/BWGViewWidgetSlideshow.php:156
+#: admin/views/BWGViewWidgetSlideshow.php:162
+msgid "No"
+msgstr "No"
+
+#: admin/views/BWGViewOptions_bwg.php:1266
+msgid "Add placeholder to search:"
+msgstr ""
+
+#: admin/views/BWGViewOptions_bwg.php:1374
+msgid "Include styles/scripts in necessary pages only:"
+msgstr ""
+
+#: admin/views/BWGViewOptions_bwg.php:1384
+msgid "Introduction tour:"
+msgstr ""
+
+#: admin/views/BWGViewOptions_bwg.php:1390
+msgid "Take this tour to quickly learn about the use of this plugin."
+msgstr ""
+
+#: admin/views/BWGViewOptions_bwg.php:1407
+#, fuzzy
+msgid "Recreate"
+msgstr "Ricreare Thumbnail"
+
+#: admin/views/BWGViewOptions_bwg.php:1747
+#, fuzzy
+msgid "Reset Watermark"
+msgstr "Imposta Watermark"
+
+#: admin/views/BWGViewTags_bwg.php:62
+msgid "Save"
+msgstr "Salva"
+
+#: admin/views/BWGViewTags_bwg.php:107
+msgid "Count"
+msgstr "Contare"
+
+#: admin/views/BWGViewTags_bwg.php:124 admin/views/BWGViewTags_bwg.php:126
+msgid "Add Tag "
+msgstr "Aggiungi Tag"
+
+#: admin/views/BWGViewThemes_bwg.php:94
+msgid "Title"
+msgstr "Titolo"
+
+#: admin/views/BWGViewThemes_bwg.php:200
+msgid "Solid"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:201
+msgid "Dotted"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:202
+msgid "Dashed"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:203 admin/views/BWGViewThemes_bwg.php:241
+msgid "Double"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:204
+msgid "Groove"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:205
+msgid "Ridge"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:206
+msgid "Inset"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:207
+msgid "Outset"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:223
+msgid "Left"
+msgstr "Sinistra"
+
+#: admin/views/BWGViewThemes_bwg.php:224
+msgid "Center"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:225
+msgid "Right"
+msgstr "Destra"
+
+#: admin/views/BWGViewThemes_bwg.php:228
+msgid "Lighter"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:229
+msgid "Normal"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:230
+msgid "Bold"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:234
+msgid "Rotate"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:235
+msgid "Scale"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:236
+msgid "Skew"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:239
+msgid "Chevron"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:240
+msgid "Angle"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:244
+msgid "Star"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:245
+msgid "Bell"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:246
+msgid "Circle"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:247
+msgid "Flag"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:248
+msgid "Heart"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:249
+msgid "Square"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:271
+msgid "Save as Copy"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:1223
+msgid "Title alignment:"
+msgstr "Titolo di allineamento:"
+
+#: admin/views/BWGViewThemes_bwg.php:2354
+msgid "Lightbox background transparency:"
+msgstr ""
+
+#: admin/views/BWGViewThemes_bwg.php:2357
+msgid "Value must be between 0 to 100."
+msgstr "Il valore deve essere compreso tra 0 e 100."
+
+#: admin/views/BWGViewUninstall_bwg.php:36
+msgid "support team"
+msgstr ""
+
+#: admin/views/BWGViewUninstall_bwg.php:37
+#, fuzzy
+msgid "Contact us"
+msgstr "Contrastare"
+
+#: admin/views/BWGViewUninstall_bwg.php:38
+#, php-format
+msgid ""
+"Before uninstalling the plugin, please Contact our %s. We'll do our best to "
+"help you out with your issue. We value each and every user and value what's "
+"right for our users in everything we do.<br />\n"
+"          However, if anyway you have made a decision to uninstall the "
+"plugin, please take a minute to %s and tell what you didn't like for our "
+"plugins further improvement and development. Thank you !!!"
+msgstr ""
+
+#: admin/views/BWGViewUninstall_bwg.php:89
+msgid "UNINSTALL"
+msgstr ""
+
+#: admin/views/BWGViewUninstall_bwg.php:90
+msgid ""
+"You are About to Uninstall Photo Gallery from WordPress. This Action Is Not "
+"Reversible."
+msgstr ""
+
+#: admin/views/BWGViewUninstall_bwg.php:156
+#, fuzzy
+msgid "The folder was successfully deleted."
+msgstr "Le seguenti tabelle di database eliminate correttamente:"
+
+#: admin/views/BWGViewUninstall_bwg.php:156
+msgid "An error occurred when deleting the folder."
+msgstr ""
+
+#: admin/views/BWGViewWidgetSlideshow.php:107
+msgid "Title:"
+msgstr "Titolo:"
+
+#: admin/views/BWGViewWidgetSlideshow.php:112
+msgid "Select Gallery"
+msgstr "Selezionare Galleria"
+
+#: admin/views/BWGViewWidgetSlideshow.php:123
+msgid "Dimensions:"
+msgstr "Dimensioni:"
+
+#: admin/views/BWGViewWidgetSlideshow.php:132
+msgid "Slideshow effect:"
+msgstr "Slideshow effetto:"
+
+#: admin/views/BWGViewWidgetSlideshow.php:144
+msgid "Time interval:"
+msgstr "Intervallo di tempo:"
+
+#: admin/views/BWGViewWidgetSlideshow.php:148
+msgid "Enable shuffle:"
+msgstr "Abilita riordino:"
+
+#: admin/views/BWGViewWidgetSlideshow.php:154
+msgid "Enable autoplay:"
+msgstr "Abilita riproduzione automatica:"
+
+#: admin/views/BWGViewWidgetSlideshow.php:160
+msgid "Enable control buttons:"
+msgstr "Abilita pulsanti di controllo:"
+
+#: admin/views/BWGViewWidgetSlideshow.php:166
+msgid "This option is disabled in free version."
+msgstr ""
+
+#: filemanager/view.php:70
+msgid "File loading failed"
+msgstr ""
+
+#: filemanager/view.php:72
+msgid "Are you sure you want to permanently remove selected items?"
+msgstr ""
+
+#: filemanager/view.php:73
+msgid "This will cancel uploads. Continue?"
+msgstr ""
+
+#: filemanager/view.php:75
+msgid "Enter directory name"
+msgstr ""
+
+#: filemanager/view.php:76
+msgid "Enter new name"
+msgstr ""
+
+#: filemanager/view.php:77
+msgid "Processing uploaded files..."
+msgstr ""
+
+#: filemanager/view.php:114
+msgid "Up"
+msgstr ""
+
+#: filemanager/view.php:115
+msgid "Make a directory"
+msgstr ""
+
+#: filemanager/view.php:116
+msgid "Rename item"
+msgstr ""
+
+#: filemanager/view.php:118
+msgid "Copy"
+msgstr ""
+
+#: filemanager/view.php:119
+msgid "Cut"
+msgstr ""
+
+#: filemanager/view.php:120
+msgid "Paste"
+msgstr ""
+
+#: filemanager/view.php:121
+msgid "Remove items"
+msgstr ""
+
+#: filemanager/view.php:124
+msgid "Upload files"
+msgstr ""
+
+#: filemanager/view.php:129
+msgid "Media library"
+msgstr ""
+
+#: filemanager/view.php:138
+msgid "View thumbs"
+msgstr ""
+
+#: filemanager/view.php:139
+msgid "View list"
+msgstr ""
+
+#: filemanager/view.php:146
+msgid "To change upload directory go to Options page."
+msgstr ""
+
+#: filemanager/view.php:158
+#, fuzzy
+msgid "Order by:"
+msgstr "Ordina per:"
+
+#: filemanager/view.php:271
+msgid "Add selected images to gallery"
+msgstr ""
+
+#: filemanager/view.php:271
+msgid "Add"
+msgstr "Aggiungere"
+
+#: filemanager/view.php:281 filemanager/view.php:364
+msgid "Thumbnail Maximum Dimensions:"
+msgstr ""
+
+#: filemanager/view.php:286 filemanager/view.php:369
+#: frontend/views/BWGViewAlbum_compact_preview.php:297
+#: frontend/views/BWGViewAlbum_extended_preview.php:240
+msgid "Back"
+msgstr "Indietro"
+
+#: filemanager/view.php:289 filemanager/view.php:372
+msgid "Image Maximum Dimensions:"
+msgstr ""
+
+#: filemanager/view.php:356
+msgid "Import selected images"
+msgstr ""
+
+#: filemanager/view.php:380
+msgid "Drag files here or click the button below"
+msgstr ""
+
+#: filemanager/view.php:380
+msgid "to upload files"
+msgstr ""
+
+#: filemanager/view.php:444
+msgid "No files to upload"
+msgstr ""
+
+#: framework/WDWLibrary.php:43
+msgid "You can't delete default theme"
+msgstr ""
+
+#: framework/WDWLibrary.php:61
+msgid "The item is successfully set as default."
+msgstr ""
+
+#: framework/WDWLibrary.php:67
+msgid "Options Succesfully Saved."
+msgstr ""
+
+#: framework/WDWLibrary.php:103
+msgid "A term with the name provided already exists."
+msgstr ""
+
+#: framework/WDWLibrary.php:109
+msgid "Name field is required."
+msgstr ""
+
+#: framework/WDWLibrary.php:115
+msgid "The slug must be unique."
+msgstr ""
+
+#: framework/WDWLibrary.php:121
+msgid "Changes must be saved."
+msgstr ""
+
+#: framework/WDWLibrary.php:127
+#, fuzzy
+msgid "Theme successfully copied."
+msgstr "La miniatura croped successo."
+
+#: framework/WDWLibrary.php:133
+msgid "Failed."
+msgstr ""
+
+#: framework/WDWLibrary.php:314 framework/WDWLibrary.php:463
+#: framework/WDWLibrary.php:546
+msgid "of"
+msgstr "di"
+
+#: framework/WDWLibrary.php:517
+msgid " item(s)"
+msgstr "elementi)"
+
+#: framework/WDWLibrary.php:522
+msgid "First"
+msgstr "Primo"
+
+#: framework/WDWLibrary.php:523
+msgid "Previous"
+msgstr "Precedente"
+
+#: framework/WDWLibrary.php:524 includes/bwg_pointers.php:312
+#: includes/bwg_pointers.php:349 includes/bwg_pointers.php:365
+#: includes/bwg_pointers.php:382 includes/bwg_pointers.php:397
+#: includes/bwg_pointers.php:414 includes/bwg_pointers.php:430
+#: includes/bwg_pointers.php:470 includes/bwg_pointers.php:487
+#: includes/bwg_pointers.php:502 includes/bwg_pointers.php:518
+#: includes/bwg_pointers.php:535 includes/bwg_pointers.php:559
+#: includes/bwg_pointers.php:575 includes/bwg_pointers.php:589
+#: includes/bwg_pointers.php:605 includes/bwg_pointers.php:635
+#: includes/bwg_pointers.php:651
+msgid "Next"
+msgstr "Il prossimo"
+
+#: framework/WDWLibrary.php:525
+msgid "Last"
+msgstr "Ultimo"
+
+#: framework/WDWLibrary.php:543
+msgid "Go to the first page"
+msgstr "Vai alla prima pagina"
+
+#: framework/WDWLibrary.php:544
+msgid "Go to the previous page"
+msgstr "Vai alla pagina precedente"
+
+#: framework/WDWLibrary.php:550
+msgid "Go to the next page"
+msgstr "Vai alla pagina successiva"
+
+#: framework/WDWLibrary.php:551
+msgid "Go to the last page"
+msgstr "Vai all-ultima pagina"
+
+#: framework/WDWLibrary.php:563
+msgid "Load More..."
+msgstr "Carica altro..."
+
+#: framework/WDWLibrary.php:752
+msgid "Order by: "
+msgstr "Ordina per:"
+
+#: framework/WDWLibrary.php:756
+msgid "Size"
+msgstr "Dimensione"
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:129
+#: frontend/views/BWGViewAlbum_extended_preview.php:73
+#: frontend/views/BWGViewImage_browser.php:51
+#: frontend/views/BWGViewSlideshow.php:27
+#: frontend/views/BWGViewSlideshow.php:68
+#: frontend/views/BWGViewThumbnails.php:134
+msgid "There is no theme selected or the theme was deleted."
+msgstr "Non c-è un tema selezionato o il tema è stato eliminato."
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:135
+#: frontend/views/BWGViewAlbum_compact_preview.php:173
+#: frontend/views/BWGViewAlbum_extended_preview.php:80
+#: frontend/views/BWGViewAlbum_extended_preview.php:117
+msgid "There is no album selected or the album was deleted."
+msgstr "Non vi è alcun album selezionato o l-album è stato eliminato."
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:159
+#: frontend/views/BWGViewAlbum_extended_preview.php:104
+#: frontend/views/BWGViewImage_browser.php:68
+#: frontend/views/BWGViewSlideshow.php:118
+#: frontend/views/BWGViewThumbnails.php:162
+msgid "There are no images in this gallery."
+msgstr "Non ci sono immagini in questa galleria."
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:320
+#: frontend/views/BWGViewAlbum_extended_preview.php:268
+msgid "Album is empty."
+msgstr "Album è vuoto."
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:443
+#: frontend/views/BWGViewAlbum_extended_preview.php:256
+msgid "Gallery is empty."
+msgstr "Gallery è vuoto."
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:507
+#: frontend/views/BWGViewAlbum_extended_preview.php:439
+#: frontend/views/BWGViewGalleryBox.php:780
+#: frontend/views/BWGViewGalleryBox.php:2170
+#: frontend/views/BWGViewSlideshow.php:1036
+#: frontend/views/BWGViewThumbnails.php:275
+msgid "Play"
+msgstr "Giocare"
+
+#: frontend/views/BWGViewAlbum_extended_preview.php:370
+#: frontend/views/BWGViewAlbum_extended_preview.php:483
+msgid "More"
+msgstr "Di più"
+
+#: frontend/views/BWGViewAlbum_extended_preview.php:478
+msgid "Hide"
+msgstr "Nascondere"
+
+#: frontend/views/BWGViewGalleryBox.php:760
+msgid "The image has been deleted."
+msgstr "L-immagine è stata eliminata."
+
+#: frontend/views/BWGViewGalleryBox.php:784
+#: frontend/views/BWGViewGalleryBox.php:1539
+#: frontend/views/BWGViewGalleryBox.php:2002
+#: frontend/views/BWGViewGalleryBox.php:2098
+msgid "Maximize"
+msgstr "Massimizzare"
+
+#: frontend/views/BWGViewGalleryBox.php:788
+#: frontend/views/BWGViewGalleryBox.php:1541
+#: frontend/views/BWGViewGalleryBox.php:2100
+msgid "Fullscreen"
+msgstr "A schermo intero"
+
+#: frontend/views/BWGViewGalleryBox.php:790
+#: frontend/views/BWGViewGalleryBox.php:1888
+msgid "Show info"
+msgstr "Mostra info"
+
+#: frontend/views/BWGViewGalleryBox.php:796
+msgid "Open image in original size."
+msgstr "Apri l-immagine in dimensioni originali."
+
+#: frontend/views/BWGViewGalleryBox.php:817
+msgid "Download original image"
+msgstr "Apri l-immagine originale"
+
+#: frontend/views/BWGViewGalleryBox.php:1696
+msgid "Show Comments"
+msgstr "Mostra i commenti"
+
+#: frontend/views/BWGViewGalleryBox.php:1739
+msgid "Hide Comments"
+msgstr "Nascondi commenti"
+
+#: frontend/views/BWGViewGalleryBox.php:1884
+msgid "Hide info"
+msgstr "Nascondi informazioni"
+
+#: frontend/views/BWGViewGalleryBox.php:2039
+#: frontend/views/BWGViewGalleryBox.php:2239
+msgid "Restore"
+msgstr "Ripristinare"
+
+#: frontend/views/BWGViewGalleryBox.php:2150
+msgid "Exit Fullscreen"
+msgstr "Exit Fullscreen"
+
+#: frontend/views/BWGViewGalleryBox.php:2164
+#: frontend/views/BWGViewGalleryBox.php:2179
+#: frontend/views/BWGViewSlideshow.php:1027
+#: frontend/views/BWGViewSlideshow.php:1045
+msgid "Pause"
+msgstr "Pausa"
+
+#: frontend/views/BWGViewImage_browser.php:56
+#: frontend/views/BWGViewSlideshow.php:107
+#: frontend/views/BWGViewThumbnails.php:146
+msgid "There is no gallery selected or the gallery was deleted."
+msgstr "Non vi è alcuna galleria selezionata o la galleria è stata eliminata."
+
+#: frontend/views/BWGViewImage_browser.php:65
+#: frontend/views/BWGViewSlideshow.php:115
+#: frontend/views/BWGViewThumbnails.php:159
+#, fuzzy
+msgid "There are no images."
+msgstr "Non ci sono immagini in questa galleria."
+
+#: includes/bwg_pointers.php:257
+msgid "Press Start Tour to learn how to create your first Photo Gallery."
+msgstr "Premere Start Tour per imparare come creare il primo Photo Gallery."
+
+#: includes/bwg_pointers.php:258
+msgid "Set the settings for gallery/album."
+msgstr "Impostare le impostazioni per la galleria / album."
+
+#: includes/bwg_pointers.php:259
+msgid "Press Add New button to create your gallery."
+msgstr "Premere il pulsante Aggiungi nuovo per creare la vostra galleria."
+
+#: includes/bwg_pointers.php:261
+msgid "Press add image button to open Image Upload to add images to gallery."
+msgstr ""
+"Premere il pulsante immagine aggiungere per aprire l'immagine Caricare per "
+"aggiungere immagini alla galleria."
+
+#: includes/bwg_pointers.php:262
+msgid ""
+"Press to upload images. If you plan to create gallery based on images stored "
+"in standard WordPress Media Library, you must enable \"Import from Media "
+"Library\" option from \"Global options\"."
+msgstr ""
+"Premere per caricare le immagini. Se si prevede di creare galleria sulla "
+"base di immagini memorizzate nello standard di WordPress Media Library, è "
+"necessario abilitare \"Importa da Media Library\" dal \"Opzioni globali\"."
+
+#: includes/bwg_pointers.php:263
+msgid "Browse photos or drag and drop to upload."
+msgstr "Sfogliare le foto o il drag and drop per caricare."
+
+#: includes/bwg_pointers.php:264
+msgid ""
+"Hit on images you want to add to existing gallery or press Select All button "
+"for adding all images."
+msgstr ""
+"Hit sulle immagini che si desidera aggiungere alla già esistente galleria o "
+"premere il pulsante Seleziona tutto per l'aggiunta di tutte le immagini."
+
+#: includes/bwg_pointers.php:265
+msgid ""
+"To finalize the process of adding images press Add Selected image to "
+"gallery. Images will be added to your gallery and pop-up will be closed."
+msgstr ""
+"Per finalizzare il processo di aggiunta di immagini premere Aggiungi "
+"immagine selezionata galleria. Le immagini verranno aggiunte alla tua "
+"galleria e pop-up sarà chiuso."
+
+#: includes/bwg_pointers.php:266
+msgid ""
+"Press Save button. If you want to additionally create an album navigate to "
+"Photo Gallery/Albums or navigate to Pages section to insert created gallery "
+"into a page."
+msgstr ""
+"Premere il pulsante Salva. Se si desidera creare inoltre un album navigare "
+"all'album fotografico / album o accedere alla sezione Pagine di inserire "
+"galleria creata in una pagina."
+
+#: includes/bwg_pointers.php:267
+msgid "Press Add New button to create your album."
+msgstr "Premere il pulsante Aggiungi nuovo per creare il vostro album."
+
+#: includes/bwg_pointers.php:269
+msgid ""
+"Press Add Albums/Galleries button to choose the galleries and albums which "
+"will be included into newly created album."
+msgstr ""
+"Premere Aggiungi album / pulsante di gallerie per scegliere le gallerie e "
+"gli album che saranno inclusi in album appena creato."
+
+#: includes/bwg_pointers.php:270
+msgid "Select albums/galleries which you want to add to the album."
+msgstr "Selezionare Album / gallerie che si desidera aggiungere all'album."
+
+#: includes/bwg_pointers.php:271
+msgid "Press Add button to add selected items to your album."
+msgstr ""
+"Premere il pulsante per aggiungere elementi selezionati al tuo album "
+"Aggiungi."
+
+#: includes/bwg_pointers.php:272
+msgid ""
+"Press Save button. Navigate to Pages section to insert created album into a "
+"page."
+msgstr ""
+"Premere il pulsante Salva. Passare alla sezione Pagine di inserire album "
+"creato in una pagina."
+
+#: includes/bwg_pointers.php:273
+msgid "Add New Photo Gallery page."
+msgstr "Aggiungere pagina Nuovo Photo Gallery."
+
+#: includes/bwg_pointers.php:274
+msgid "Press Add New button to create a new page with gallery/album."
+msgstr ""
+"Premere il pulsante Aggiungi nuovo per creare una nuova pagina con la "
+"galleria / album."
+
+#: includes/bwg_pointers.php:275
+msgid "Click on Photo Gallery shortcode generator icon."
+msgstr "Clicca su Photo Gallery icona generatore shortcode."
+
+#: includes/bwg_pointers.php:276
+msgid ""
+"Select the view option you want to use for your gallery/album based on "
+"provided display options"
+msgstr ""
+"Selezionare l'opzione di visualizzazione che si desidera utilizzare per la "
+"galleria / album sulla base di opzioni di visualizzazione fornite"
+
+#: includes/bwg_pointers.php:277
+msgid "Select the gallery/album and define view-related options."
+msgstr ""
+"Selezionare la galleria / album e di definire le opzioni di visualizzazione "
+"legati."
+
+#: includes/bwg_pointers.php:278
+msgid ""
+"Define lightbox settings (except slideshow and carousel views with their own "
+"sets of features)."
+msgstr ""
+"Definire le impostazioni lightbox (ad eccezione di vista della presentazione "
+"e carosello con i loro set di caratteristiche)."
+
+#: includes/bwg_pointers.php:279
+msgid "Enable Advertisement previously created in Options section."
+msgstr "Abilita Pubblicità creato in precedenza nella sezione Opzioni."
+
+#: includes/bwg_pointers.php:280
+msgid ""
+"To finalize the shortcode generation and to insert it to a page press Insert "
+"button."
+msgstr ""
+"Per finalizzare la generazione shortcode e di inserirlo in una pulsante "
+"Inserisci pagina di stampa."
+
+#: includes/bwg_pointers.php:281
+msgid "Publish the page."
+msgstr "Pubblicare la pagina."
+
+#: includes/bwg_pointers.php:298
+msgid "Start"
+msgstr "Inizio"
+
+#: includes/bwg_pointers.php:302
+msgid "Click to Start Tour"
+msgstr "Fare clic su Start Tour"
+
+#: includes/bwg_pointers.php:316
+msgid "Photo Gallery options"
+msgstr "Opzioni Galleria Foto"
+
+#: includes/bwg_pointers.php:325
+msgid "Add a Gallery"
+msgstr "Aggiungere una galleria"
+
+#: includes/bwg_pointers.php:353
+msgid "Add images"
+msgstr "Aggiungere immagini"
+
+#: includes/bwg_pointers.php:369
+msgid "Upload Images"
+msgstr "Carica Immagini"
+
+#: includes/bwg_pointers.php:386
+msgid "Choose file"
+msgstr "Scegli il file"
+
+#: includes/bwg_pointers.php:401
+msgid "Select Images"
+msgstr "selezionare Immagini"
+
+#: includes/bwg_pointers.php:419
+msgid "Add Selected images to gallery"
+msgstr "Aggiungere immagini selezionate per la galleria"
+
+#: includes/bwg_pointers.php:434
+msgid "Save gallery"
+msgstr "Salva galleria"
+
+#: includes/bwg_pointers.php:446
+msgid "Add album/gallery"
+msgstr "Aggiungere album / galleria"
+
+#: includes/bwg_pointers.php:474
+msgid "Add Albums/Galleries"
+msgstr "Aggiungere Albums / Gallerie"
+
+#: includes/bwg_pointers.php:491
+msgid "Select album/gallery"
+msgstr "Seleziona album / galleria"
+
+#: includes/bwg_pointers.php:506
+msgid "Choosing Galleries/Albums"
+msgstr "La scelta Gallerie / Album"
+
+#: includes/bwg_pointers.php:522
+msgid "Save Album"
+msgstr "Salva Album"
+
+#: includes/bwg_pointers.php:539
+msgid "Add New Page"
+msgstr "Aggiungi nuova pagina"
+
+#: includes/bwg_pointers.php:550
+msgid "Add Page"
+msgstr "Aggiungi pagina"
+
+#: includes/bwg_pointers.php:563 includes/bwg_pointers.php:639
+msgid "Insert Shortcode"
+msgstr "Inserire Shortcode"
+
+#: includes/bwg_pointers.php:579
+msgid "Choose View"
+msgstr "scegliere Visualizza"
+
+#: includes/bwg_pointers.php:593
+msgid "Select gallery"
+msgstr "Selezionare galleria"
+
+#: includes/bwg_pointers.php:610
+msgid "Ligthbox settings"
+msgstr "impostazioni Lightbox"
+
+#: includes/bwg_pointers.php:655
+msgid "Publish Page"
+msgstr "pubblicare Pagina"
+
+#~ msgid "Logout of your app"
+#~ msgstr "Logout della vostra applicazione"
+
+#~ msgid "Log into Facebook with your app"
+#~ msgstr "Accedere a Facebook con la tua applicazione"
+
+#~ msgid "Albums/Galleries"
+#~ msgstr "Album / gallerie"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "This section allows you to create, edit and delete albums."
+#~ msgstr ""
+#~ "Questa sezione permette di creare, modificare ed eliminare gli album."
+
+#~ msgid "Read More in User Manual"
+#~ msgstr "Per saperne di più nel Manuale d-uso"
+
+#~ msgid "Add new"
+#~ msgstr "Aggiungere nuova"
+
+#~ msgid "Changes made in this table should be saved."
+#~ msgstr "Le modifiche apportate in questa tabella devono essere salvati."
+
+#~ msgid "Order"
+#~ msgstr "Ordine"
+
+#~ msgid "This section allows you to add/edit album."
+#~ msgstr "Questa sezione permette di aggiungere / modificare album."
+
+#~ msgid "Manual"
+#~ msgstr "Manuale"
+
+#~ msgid "Name:"
+#~ msgstr "Nome:"
+
+#~ msgid "Slug:"
+#~ msgstr "Slug:"
+
+#~ msgid "Description:"
+#~ msgstr "Descrizione:"
+
+#~ msgid "Author:"
+#~ msgstr "Autore:"
+
+#~ msgid "Published:"
+#~ msgstr "Pubblicato:"
+
+#~ msgid "Preview image:"
+#~ msgstr "Immagine in anteprima:"
+
+#~ msgid "Albums And Galleries:"
+#~ msgstr "Album e Gallerie:"
+
+#~ msgid "Add Images"
+#~ msgstr "Aggiungi immagini"
+
+#~ msgid "Photo Gallery"
+#~ msgstr "Galleria fotografica"
+
+#~ msgid "Display"
+#~ msgstr "Display"
+
+#~ msgid "Thumbnails"
+#~ msgstr "Miniature"
+
+#~ msgid "Masonry"
+#~ msgstr "Muratura"
+
+#~ msgid "Mosaic"
+#~ msgstr "Mosaico"
+
+#~ msgid "Image Browser"
+#~ msgstr "Imagg. Browser"
+
+#~ msgid "Compact Album"
+#~ msgstr "Compatto Album"
+
+#~ msgid "Masonry Album"
+#~ msgstr "Masson. Album"
+
+#~ msgid "Extended Album"
+#~ msgstr "Esteso Album"
+
+#~ msgid "Blog Style"
+#~ msgstr "Blog Stile"
+
+#~ msgid "Theme:"
+#~ msgstr "Tema:"
+
+#~ msgid "Select Theme"
+#~ msgstr "Scegli Tema"
+
+#~ msgid "Gallery:"
+#~ msgstr "Galleria:"
+
+#~ msgid "The selected album expanded content will be displayed."
+#~ msgstr "Verrà visualizzato il contenuto dell'album ampliato selezionato."
+
+#~ msgid "Album:"
+#~ msgstr "Album:"
+
+#~ msgid "Select Album"
+#~ msgstr "Selezionare Album"
+
+#~ msgid "Sort images by:"
+#~ msgstr "Ordinare le immagini per:"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Resolution"
+#~ msgstr "Risoluzione"
+
+#~ msgid "Order images:"
+#~ msgstr "Ordinare le immagini:"
+
+#~ msgid "Ascending"
+#~ msgstr "Ascendente"
+
+#~ msgid "Descending"
+#~ msgstr "Discendente"
+
+#~ msgid "Search box width:"
+#~ msgstr "Larghezza della casella di ricerca:"
+
+#~ msgid "Show tag box:"
+#~ msgstr "Mostra scatola tag:"
+
+#~ msgid "Show \"Order by\" dropdown list:"
+#~ msgstr "Mostra -Ordina per - nell-elenco a discesa:"
+
+#~ msgid "Masonry:"
+#~ msgstr "Massoneria:"
+
+#~ msgid "Image thumbnail width:"
+#~ msgstr "Immagine Larghezza miniatura:"
+
+#~ msgid "Vertical"
+#~ msgstr "Verticale"
+
+#~ msgid "Max. number of image columns: "
+#~ msgstr "Max. numero di colonne di immag.:"
+
+#~ msgid "Horizontal"
+#~ msgstr "Orizzontale"
+
+#~ msgid "Mosaic:"
+#~ msgstr "Mosaico:"
+
+#~ msgid ""
+#~ "Mosaic thumbnails do not have fixed size, but are proportional to the "
+#~ "width of the parent container. This option keeps thumbs to look nice when "
+#~ "viewed with very large or very small screen. Prevents zooming of thumbs."
+#~ msgstr ""
+#~ "Miniature mosaico non hanno dimensione fissa, ma sono proporzionali alla "
+#~ "larghezza del contenitore principale. Questa opzione consente di "
+#~ "mantenere i pollici per guardare bello se visto con schermo molto grande "
+#~ "o molto piccolo. Impedisce lo zoom dei pollici."
+
+#~ msgid "Resizable mosaic"
+#~ msgstr "Mosaico ridimensionabile"
+
+#~ msgid "Percentage of container's width"
+#~ msgstr "Percentuale di larghezza di container"
+
+#~ msgid "Total width of mosaic:"
+#~ msgstr "Larghezza totale del mosaico:"
+
+#~ msgid ""
+#~ "If you want to display all images you should leave it blank or insert 0."
+#~ msgstr ""
+#~ "Se si desidera visualizzare tutte le immagini si dovrebbe lasciare vuoto "
+#~ "o inserire 0."
+
+#~ msgid "Images per page:"
+#~ msgstr "Immagini per pagina:"
+
+#~ msgid "Image title:"
+#~ msgstr "Titolo Immag.:"
+
+#~ msgid "Show on hover"
+#~ msgstr "Mostra al passaggio del mouse"
+
+#~ msgid "Always show"
+#~ msgstr "Mostra sempre"
+
+#~ msgid "Don't show"
+#~ msgstr "Non mostrare"
+
+#~ msgid "Enable pagination:"
+#~ msgstr "Abilita impaginazione:"
+
+#~ msgid "Load More"
+#~ msgstr "Carica altro"
+
+#~ msgid "Scroll Load"
+#~ msgstr "Carico di scorrimento"
+
+#~ msgid "Images per load:"
+#~ msgstr "Immagini per carico:"
+
+#~ msgid "Maximum values for thumbnail dimension."
+#~ msgstr "Valori massimi per dimensione delle miniature."
+
+#~ msgid "Image Thumbnail dimensions:"
+#~ msgstr "Immagine Miniatura Dimensioni:"
+
+#~ msgid "Max. number of album columns:"
+#~ msgstr "Max. numero di colonne album:"
+
+#~ msgid ""
+#~ "If you want to display all albums you should leave it blank or insert 0."
+#~ msgstr ""
+#~ "Se si desidera visualizzare tutti gli album si dovrebbe lasciare vuoto o "
+#~ "inserire 0."
+
+#~ msgid "Albums per page:"
+#~ msgstr "Album per pagina:"
+
+#~ msgid "Album title:"
+#~ msgstr "Titolo dell-album:"
+
+#~ msgid "Maximum values for album thumb width and height."
+#~ msgstr "Valori massimi per la larghezza e l'altezza album pollice."
+
+#~ msgid "Album Thumbnail dimensions:"
+#~ msgstr "Dimensioni miniatura dell-album:"
+
+#~ msgid "The gallery images view type in the album."
+#~ msgstr "Le immagini della galleria visualizzazione tipo nell'album."
+
+#~ msgid "Album view type:"
+#~ msgstr "Album tipo di vista:"
+
+#~ msgid "percent"
+#~ msgstr "per cento"
+
+#~ msgid "Maximum values for thumbnail width and height."
+#~ msgstr "Valori massimi per la larghezza e l'altezza delle miniature."
+
+#~ msgid "Albums per load:"
+#~ msgstr "Album per lavaggio:"
+
+#~ msgid "Maximum value for album thumbnail width."
+#~ msgstr "Valore massimo per la larghezza album miniatura."
+
+#~ msgid "Album Thumbnail width:"
+#~ msgstr "Album Thumbnail Larghezza:"
+
+#~ msgid "Maximum value for thumbnail width."
+#~ msgstr "Valore massimo per la larghezza delle miniature."
+
+#~ msgid "Album row height:"
+#~ msgstr "Album altezza della riga:"
+
+#~ msgid ""
+#~ "If you disable description only the title of the album will be displayed."
+#~ msgstr ""
+#~ "Se si disattiva descrizione verrà visualizzato solo il titolo dell'album."
+
+#~ msgid "Enable album description:"
+#~ msgstr "Abilita Descrizione album:"
+
+#~ msgid "Album thumbnail dimensions:"
+#~ msgstr "Album Miniatura Dimensioni:"
+
+#~ msgid "Resizable mosaic:"
+#~ msgstr "Mosaico ridimensionabile:"
+
+#~ msgid "Maximum value for image width."
+#~ msgstr "Valore massimo per la larghezza dell'immagine."
+
+#~ msgid "Image width:"
+#~ msgstr "Larghezza immag.:"
+
+#~ msgid "Enable image title:"
+#~ msgstr "Abilita titolo dell-immag.:"
+
+#~ msgid "Enable image description:"
+#~ msgstr "Abilita image description:"
+
+#~ msgid "Load more"
+#~ msgstr "Carica altro"
+
+#~ msgid "Slideshow Effect:"
+#~ msgstr "Effetto Presentazione:"
+
+#~ msgid "Maximum values for slideshow width and height."
+#~ msgstr "Valori massimi per la larghezza e l'altezza. Slideshow"
+
+#~ msgid "Slideshow dimensions: "
+#~ msgstr "Dimensioni Slideshow:"
+
+#~ msgid "Enable Autoplay:"
+#~ msgstr "Abilita Autoplay:"
+
+#~ msgid "Enable Shuffle:"
+#~ msgstr "Abilita Shuffle:"
+
+#~ msgid "Enable slideshow filmstrip view"
+#~ msgstr "Abilita presentazione vista filmato"
+
+#~ msgid "Enable slideshow filmstrip:"
+#~ msgstr "Abilita presentazione pellicola:"
+
+#~ msgid "Slideshow Filmstrip size:"
+#~ msgstr "Slideshow formato Filmstrip:"
+
+#~ msgid "Max. number of carousel images:"
+#~ msgstr "Max. numero di immagini carosello:"
+
+#~ msgid "Enable Image Title:"
+#~ msgstr "Abilita Immagine Titolo:"
+
+#~ msgid "Image title position on slideshow"
+#~ msgstr "Immagine posizione del titolo su presentazione"
+
+#~ msgid "Title Position:"
+#~ msgstr "Titolo Posizione:"
+
+#~ msgid "Display image title based on the slideshow dimensions."
+#~ msgstr ""
+#~ "Titolo L-immagine visualizzata in base alle dimensioni della "
+#~ "presentazione."
+
+#~ msgid "Full width title:"
+#~ msgstr "Titolo completo Larghezza:"
+
+#~ msgid "Enable Image Description:"
+#~ msgstr "Abilita Immagine Descrizione:"
+
+#~ msgid "Image description position on slideshow"
+#~ msgstr "Descrizione Immagine posizione su presentazione"
+
+#~ msgid "Description Position:"
+#~ msgstr "Descrizione Posizione:"
+
+#~ msgid "Enable Slideshow Music:"
+#~ msgstr "Abilita Slideshow Musica:"
+
+#~ msgid "Enter absolute audio file url or add file from Options page."
+#~ msgstr ""
+#~ "Inserisci assoluto URL del file audio o aggiungere file dalla pagina "
+#~ "delle opzioni."
+
+#~ msgid "Music url:"
+#~ msgstr "Musica url:"
+
+#~ msgid "Maximum values for carousel width and height."
+#~ msgstr "Valori massimi per la larghezza e l'altezza. Giostra"
+
+#~ msgid "Carousel dimensions:"
+#~ msgstr "Dimensioni Carousel:"
+
+#~ msgid "Carousel image ratio:"
+#~ msgstr "Carousel Rapporto immag.:"
+
+#~ msgid "Fixed width:"
+#~ msgstr "Larghezza fissa:"
+
+#~ msgid "Container fit:"
+#~ msgstr "Container in forma:"
+
+#~ msgid "Next/Previous buttons:"
+#~ msgstr "Avanti / Indietro pulsanti:"
+
+#~ msgid "Play/Pause button:"
+#~ msgstr "Pulsante Play / Pausa:"
+
+#~ msgid "Thumb click action:"
+#~ msgstr "Pollice clic azione:"
+
+#~ msgid "Open lightbox"
+#~ msgstr "Open lightbox"
+
+#~ msgid "Redirect to url"
+#~ msgstr "Redirect a url"
+
+#~ msgid "Do Nothing"
+#~ msgstr "Fare niente"
+
+#~ msgid "Open new window when redirecting."
+#~ msgstr "Aprire una nuova finestra in cui il reindirizzamento."
+
+#~ msgid "Open in new window:"
+#~ msgstr "Apri in una nuova finestra:"
+
+#~ msgid "Enable full width feature for the lightbox."
+#~ msgstr "Attivare la funzione di grande ampiezza per la lightbox."
+
+#~ msgid "Full width lightbox:"
+#~ msgstr "Ampiezza lightbox:"
+
+#~ msgid "Maximum values for lightbox width and height."
+#~ msgstr "Valori massimi per la larghezza e l'altezza. Lightbox"
+
+#~ msgid "Lightbox dimensions:"
+#~ msgstr "Lightbox dimensioni:"
+
+#~ msgid "Lightbox slideshow effect."
+#~ msgstr "Lightbox effetto presentazione."
+
+#~ msgid "Lightbox effect:"
+#~ msgstr "Lightbox effetto:"
+
+#~ msgid "Lightbox autoplay:"
+#~ msgstr "Lightbox autoplay:"
+
+#~ msgid "Enable filmstrip view for images"
+#~ msgstr "Abilita vista filmato per le immagini"
+
+#~ msgid "Enable filmstrip in lightbox:"
+#~ msgstr "Abilita pellicola in lightbox:"
+
+#~ msgid "Filmstrip size:"
+#~ msgstr "Formato Filmstrip:"
+
+#~ msgid "Display hit counter:"
+#~ msgstr "Espositore da banco hit:"
+
+#~ msgid "Enable control buttons in lightbox"
+#~ msgstr "Abilita pulsanti di controllo a lightbox"
+
+#~ msgid "Enable fullscreen view for images"
+#~ msgstr "Attiva la visualizzazione a schermo intero per le immagini"
+
+#~ msgid "Enable fullscreen:"
+#~ msgstr "Abilita fullscreen:"
+
+#~ msgid "Enable title, description for images"
+#~ msgstr "Attiva il titolo, descrizione per le immagini"
+
+#~ msgid "Enable info:"
+#~ msgstr "Abilita info:"
+
+#~ msgid "Display info by default:"
+#~ msgstr "Visualizzare info. per imposta. predef."
+
+#~ msgid "Display image information based on the lightbox dimensions."
+#~ msgstr "Informazioni immagine del display in base alle dimensioni lightbox."
+
+#~ msgid "Full width info:"
+#~ msgstr "Info ampiezza:"
+
+#~ msgid "Enable rating for images"
+#~ msgstr "Abilita voto per immagini"
+
+#~ msgid "Enable rating:"
+#~ msgstr "Abilita Valutazione:"
+
+#~ msgid "Enable comments for images"
+#~ msgstr "Abilita commenti per immagini"
+
+#~ msgid "Enable comments:"
+#~ msgstr "Abilita commenti:"
+
+#~ msgid "Enable Facebook share button for images"
+#~ msgstr "Facebook pulsante di condivisione per le immagini Abilita"
+
+#~ msgid "Enable Facebook button:"
+#~ msgstr "Abilita pulsante Facebook:"
+
+#~ msgid "Enable Twitter share button for images"
+#~ msgstr "Pulsante di condivisione Twitter per le immagini Abilita"
+
+#~ msgid "Enable Twitter button:"
+#~ msgstr "Pulsante Twitter Attiva:"
+
+#~ msgid "Enable Google+ share button for images"
+#~ msgstr "Pulsante di condivisione Google per le immagini Abilita"
+
+#~ msgid "Enable Google+ button:"
+#~ msgstr "Tasto Google+ Attiva:"
+
+#~ msgid "Enable Pinterest share button for images"
+#~ msgstr "Pulsante di condivisione Pinterest per le immagini Abilita"
+
+#~ msgid "Enable Pinterest button:"
+#~ msgstr "Tasto Pinterest Attiva:"
+
+#~ msgid "Enable Tumblr share button for images"
+#~ msgstr "Pulsante di condivisione Tumblr per immagini Abilita"
+
+#~ msgid "Enable Tumblr button:"
+#~ msgstr "Tasto Tumblr Attiva:"
+
+#~ msgid "Advertisement Type:"
+#~ msgstr "Pubblicità Tipo:"
+
+#~ msgid "Text"
+#~ msgstr "Testo"
+
+#~ msgid "Image"
+#~ msgstr "Immag."
+
+#~ msgid "Enter absolute url"
+#~ msgstr "Inserisci URL assoluto"
+
+#~ msgid "Advertisement link:"
+#~ msgstr "Pubblicità link:"
+
+#~ msgid "Enter absolute image file url or add file from Options page."
+#~ msgstr ""
+#~ "Inserisci file immagine URL assoluto o aggiungere file dalla pagina delle "
+#~ "opzioni."
+
+#~ msgid "Advertisement url:"
+#~ msgstr "Pubblicità url:"
+
+#~ msgid "Maximum values for watermark image width and height."
+#~ msgstr ""
+#~ "Valori massimi per la larghezza e l-altezza dell-immagine filigrana."
+
+#~ msgid "Advertisement dimensions:"
+#~ msgstr "Dimensioni Pubblicità:"
+
+#~ msgid "Advertisement text:"
+#~ msgstr "Testo annuncio:"
+
+#~ msgid "Advertisement font size:"
+#~ msgstr "Pubblicità font size:"
+
+#~ msgid "Advertisement font style:"
+#~ msgstr "Pubblicità stile del carattere:"
+
+#~ msgid "Advertisement color:"
+#~ msgstr "Pubblicità di colore:"
+
+#~ msgid "Advertisement opacity: "
+#~ msgstr "Pubblicità opacità:"
+
+#~ msgid "Advertisement Position: "
+#~ msgstr "Pubblicità Posizione:"
+
+#~ msgid "Shortcode"
+#~ msgstr "Codice breve"
+
+#~ msgid "PHP function"
+#~ msgstr "Funzione PHP"
+
+#~ msgid "This section allows you to manage the image comments."
+#~ msgstr "Questa sezione permette di gestire i commenti all-'immagine."
+
+#~ msgid "Comments"
+#~ msgstr "Commenti"
+
+#~ msgid "Comment"
+#~ msgstr "Commento"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "You can't crop this type of image."
+#~ msgstr "Non è possibile ritagliare questo tipo di immagine."
+
+#~ msgid "Select the area for the thumbnail."
+#~ msgstr "Selezionare l-area per la miniatura."
+
+#~ msgid "Keep aspect ratio"
+#~ msgstr "Mantenere proporzioni"
+
+#~ msgid "Grayscale"
+#~ msgstr "Scala di grigi"
+
+#~ msgid "Negative"
+#~ msgstr "Negativo"
+
+#~ msgid "Removal"
+#~ msgstr "Rimozione"
+
+#~ msgid "Sepia"
+#~ msgstr "Nero di seppia"
+
+#~ msgid "Slate"
+#~ msgstr "Ardesia"
+
+#~ msgid "Saturate"
+#~ msgstr "Saturare"
+
+#~ msgid "Reset image"
+#~ msgstr "Immagine di ripristino"
+
+#~ msgid "Brightness"
+#~ msgstr "Luminosità"
+
+#~ msgid "Press for result"
+#~ msgstr "Pressa per risultato"
+
+#~ msgid "This section allows you to create, edit and delete galleries."
+#~ msgstr ""
+#~ "Questa sezione permette di creare, modificare e cancellare le gallerie."
+
+#~ msgid "This section allows you to add/edit gallery."
+#~ msgstr "Questa sezione permette di aggiungere / modificare galleria."
+
+#~ msgid "Crop"
+#~ msgstr "Raccolto"
+
+#~ msgid "Gallery content type:"
+#~ msgstr "Galleria tipo di contenuto:"
+
+#~ msgid "Mixed"
+#~ msgstr "Misto"
+
+#~ msgid "Instagram only"
+#~ msgstr "Solo instagram"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Instagram username:"
+#~ msgstr "Instagram username:"
+
+#~ msgid "Number of Instagram recent posts to add to gallery:"
+#~ msgstr "Numero di Instagram post recenti da aggiungere alla galleria:"
+
+#~ msgid "Instagram embed type: "
+#~ msgstr "Instagram tipo embed:"
+
+#~ msgid "Content"
+#~ msgstr "Contenuto"
+
+#~ msgid "Whole post"
+#~ msgstr "Intero post"
+
+#~ msgid "Gallery autoupdate option:"
+#~ msgstr "Opzione autoupdate Galleria:"
+
+#~ msgid "No update"
+#~ msgstr "Nessun aggiornamento"
+
+#~ msgid "Add new media, keep old ones published."
+#~ msgstr "Aggiungi nuovi media, mantenere quelli vecchi pubblicati."
+
+#~ msgid "Add new media, unpublish old ones."
+#~ msgstr "Aggiungere nuovi media, quelli Unpublish vecchi."
+
+#~ msgid "Facebook album url: "
+#~ msgstr "Facebook album url:"
+
+#~ msgid "Images limit: "
+#~ msgstr "Immagini limite:"
+
+#~ msgid "Gallery autoupdate option: "
+#~ msgstr "Opzione autoupdate Galleria:"
+
+#~ msgid "Description: "
+#~ msgstr "Descrizione:"
+
+#~ msgid "Published: "
+#~ msgstr "Pubblicato:"
+
+#~ msgid "Embed Media"
+#~ msgstr "Embed Media"
+
+#~ msgid "Bulk Embed"
+#~ msgstr "Incorpora Bulk"
+
+#~ msgid "Add to gallery"
+#~ msgstr "Aggiungi alla galleria"
+
+#~ msgid ""
+#~ "Enter YouTube, Vimeo, Instagram, Facebook, Flickr or Dailymotion URL here."
+#~ msgstr ""
+#~ "Inserisci YouTube, Vimeo, Instagram, Facebook, Flickr o Dailymotion URL "
+#~ "qui."
+
+#~ msgid "Help"
+#~ msgstr "Aiuto"
+
+#~ msgid "Close"
+#~ msgstr "Chiudere"
+
+#~ msgid "example:"
+#~ msgstr "Esempio:"
+
+#~ msgid "post"
+#~ msgstr "posta"
+
+#~ msgid ""
+#~ "to the end of URL if you want to embed the whole Instagram post, not only "
+#~ "its content."
+#~ msgstr ""
+#~ "alla fine del URL se si desidera incorporare tutto il post Instagram, non "
+#~ "solo il suo contenuto."
+
+#~ msgid "Photo URL example:"
+#~ msgstr "Foto esempio di URL:"
+
+#~ msgid "Video URL example:"
+#~ msgstr "Esempio Video URL:"
+
+#~ msgid "Note that media must have public privacy."
+#~ msgstr "Si noti che i media devono avere privacy pubblico."
+
+#~ msgid "URL example:"
+#~ msgstr "URL di esempio:"
+
+#~ msgid "Bulk embed from:"
+#~ msgstr "Embed Bulk da:"
+
+#~ msgid "username:"
+#~ msgstr "username:"
+
+#~ msgid "embed type:"
+#~ msgstr "Tipo embed:"
+
+#~ msgid "album url:"
+#~ msgstr "album url:"
+
+#~ msgid "Images limit:"
+#~ msgstr "Immagini limite:"
+
+#~ msgid "Resize images to: "
+#~ msgstr "Ridimensionare le immagini a:"
+
+#~ msgid "The maximum size of resized image."
+#~ msgstr "La dimensione massima di immagine ridimensionata."
+
+#~ msgid "Alt/Title"
+#~ msgstr "Alt / Titolo"
+
+#~ msgid "Description"
+#~ msgstr "Descrizione"
+
+#~ msgid ""
+#~ "This section allows you to change settings for different views and "
+#~ "general options."
+#~ msgstr ""
+#~ "Questa sezione permette di modificare le impostazioni per i diversi punti "
+#~ "di vista e le opzioni generali."
+
+#~ msgid "Edit options"
+#~ msgstr "Opzioni di modifica"
+
+#~ msgid "Reset all options"
+#~ msgstr "Ripristina tutte le opzioni"
+
+#~ msgid "Global options"
+#~ msgstr "Opzioni globali"
+
+#~ msgid "Watermark"
+#~ msgstr "Filigrana"
+
+#~ msgid "Social options"
+#~ msgstr "Opzioni sociali"
+
+#~ msgid "Images directory:"
+#~ msgstr "Immagini elenco:"
+
+#~ msgid ""
+#~ "Input an existing directory inside the Wordpress directory to store "
+#~ "uploaded images.<br />Old directory content will be moved to the new one."
+#~ msgstr ""
+#~ "Ingresso una directory esistente all-interno directory Wordpress per "
+#~ "memorizzare le immagini caricate. <br /> Old contenuto della directory "
+#~ "verrà spostato al nuovo."
+
+#~ msgid "Image dimensions:"
+#~ msgstr "Dimensioni immag.:"
+
+#~ msgid "The maximum size of the uploaded image (0 for original size)."
+#~ msgstr ""
+#~ "La dimensione massima della immagine caricata (0 per il formato "
+#~ "originale)."
+
+#~ msgid "Right click protection:"
+#~ msgstr "Diritto di protezione clic:"
+
+#~ msgid "Disable image right click possibility."
+#~ msgstr "Immagine Disabilitare tasto destro del mouse possibilità."
+
+#~ msgid "Preload images:"
+#~ msgstr "Precarica immagini:"
+
+#~ msgid "Count of images:"
+#~ msgstr "Conte di immagini:"
+
+#~ msgid "Count of images to preload (0 for all)."
+#~ msgstr "Conte di immagini per precaricare (0 per tutti)."
+
+#~ msgid "Import from Media Library:"
+#~ msgstr "Importa da Media Library:"
+
+#~ msgid "Enable import from Media Library in file manager."
+#~ msgstr "Attiva l-importazione da Media Library nel file manager."
+
+#~ msgid "Enable href attribute:"
+#~ msgstr "Abilita attributo href:"
+
+#~ msgid "Disable this option only if it conflicts with your theme."
+#~ msgstr "Disattivare questa opzione solo se è in conflitto con il tema."
+
+#~ msgid "Meta auto-fill:"
+#~ msgstr "Meta auto-fill:"
+
+#~ msgid ""
+#~ "Enabling this option the meta description of the image will be "
+#~ "automatically filled in image description field."
+#~ msgstr ""
+#~ "Abilitando questa opzione la meta descrizione dell-immagine sarà riempito "
+#~ "automaticamente nel campo della descrizione delle immagini."
+
+#~ msgid "Roles:"
+#~ msgstr "Ruoli:"
+
+#~ msgid ""
+#~ "Choose a user type who can add/edit galleries, images, albums and tags."
+#~ msgstr ""
+#~ "Scegliere un tipo di utente che può aggiungere / modificare gallerie, "
+#~ "immagini, album e tags."
+
+#~ msgid "Gallery role:"
+#~ msgstr "Ruolo Galleria:"
+
+#~ msgid "Only author can change a gallery."
+#~ msgstr "Solo autore può cambiare una galleria."
+
+#~ msgid "Album role:"
+#~ msgstr "Ruolo Album:"
+
+#~ msgid "Only author can change an album."
+#~ msgstr "Solo autore può cambiare un album."
+
+#~ msgid "Image role:"
+#~ msgstr "Ruolo Immag.:"
+
+#~ msgid "Only author can change an image."
+#~ msgstr "Solo autore può cambiare un-'immagine."
+
+#~ msgid "Show/hide custom post types:"
+#~ msgstr "Mostra / nascondi le tipologie di messaggi personalizzati:"
+
+#~ msgid "Show/hide comments for custom post types:"
+#~ msgstr "Mostra / Nascondi commenti per i tipi di messaggi personalizzati:"
+
+#~ msgid "Watermark type: "
+#~ msgstr "Tipo di filigrana:"
+
+#~ msgid "Watermark url: "
+#~ msgstr "Url filigrana:"
+
+#~ msgid "Add Image"
+#~ msgstr "Aggiungi immagine"
+
+#~ msgid "Only .png format is supported."
+#~ msgstr "Solo formato .png è supportato."
+
+#~ msgid "Watermark text: "
+#~ msgstr "Filigrana del testo:"
+
+#~ msgid "Watermark size: "
+#~ msgstr "Dimensione della filigrana:"
+
+#~ msgid "Enter size of watermark in percents according to image."
+#~ msgstr ""
+#~ "Inserisci dimensioni di filigrana in percentuale in base all-immagine."
+
+#~ msgid "Watermark font size:"
+#~ msgstr "Font size filigrana:"
+
+#~ msgid "Watermark font style: "
+#~ msgstr "Watermark stile del carattere:"
+
+#~ msgid "Watermark color:"
+#~ msgstr "Colore filigrana:"
+
+#~ msgid "Watermark opacity:"
+#~ msgstr "Opacità filigrana:"
+
+#~ msgid "Opacity value must be in the range of 0 to 100."
+#~ msgstr "Valore di opacità deve essere compreso nell-intervallo da 0 a 100."
+
+#~ msgid "Watermark position:"
+#~ msgstr "Posizione della filigrana:"
+
+#~ msgid "Advertisement type:"
+#~ msgstr "Tipo di annuncio:"
+
+#~ msgid ""
+#~ "Enter absolute image file url or add file from Options page. (.jpg,.jpeg,."
+#~ "png,.gif formats are supported)"
+#~ msgstr ""
+#~ "Inserisci file immagine URL assoluto o aggiungere file dalla pagina delle "
+#~ "opzioni. (.jpg, .jpeg, .png, .gif formati sono supportati)"
+
+#~ msgid "Enter a URL to open when the advertisement banner is clicked."
+#~ msgstr ""
+#~ "Immettere un URL da aprire quando si fa clic sul banner pubblicitario."
+
+#~ msgid "dvertisement font style:"
+#~ msgstr "dvertisement stile del carattere:"
+
+#~ msgid "Advertisement opacity:"
+#~ msgstr "Pubblicità opacità:"
+
+#~ msgid "Advertisement position:"
+#~ msgstr "Pubblicità Posizione:"
+
+#~ msgid "Enable filmstrip:"
+#~ msgstr "Abilita pellicola:"
+
+#~ msgid "Show Next / Previous buttons:"
+#~ msgstr "Mostra successiva / pulsanti Precedente:"
+
+#~ msgid "On hover"
+#~ msgstr "Al passaggio del mouse"
+
+#~ msgid "Always"
+#~ msgstr "Sempre"
+
+#~ msgid "Enable Email for comments:"
+#~ msgstr "Abilita Email per i commenti:"
+
+#~ msgid "Enable Captcha for comments:"
+#~ msgstr "Abilita Captcha per i commenti:"
+
+#~ msgid "Enable original image display button:"
+#~ msgstr "Abilitare tasto originale di visualizzazione delle immagini:"
+
+#~ msgid "Enable download button:"
+#~ msgstr "Abilita pulsante di download:"
+
+#~ msgid "Show images count:"
+#~ msgstr "Vedere le foto contano:"
+
+#~ msgid "Enable loop:"
+#~ msgstr "Abilita ciclo:"
+
+#~ msgid "Enable AddThis:"
+#~ msgstr "Abilita AddThis:"
+
+#~ msgid "profile id:"
+#~ msgstr "Profilo ID:"
+
+#~ msgid "Create an account"
+#~ msgstr "Crea un account"
+
+#~ msgid "here"
+#~ msgstr "Qui"
+
+#~ msgid "Number of album columns:"
+#~ msgstr "Numero di colonne album:"
+
+#~ msgid "he gallery images view type in the album."
+#~ msgstr "egli galleria immagini visualizzare tipo nell-album."
+
+#~ msgid "Show title:"
+#~ msgstr "Mostra titolo:"
+
+#~ msgid "Show album/gallery name:"
+#~ msgstr "Mostra album Nome / galleria:"
+
+#~ msgid "Enable extended album description:"
+#~ msgstr "Abilita descrizione album estesa:"
+
+#~ msgid "Extended album height:"
+#~ msgstr "Altezza album estesa:"
+
+#~ msgid "Slideshow dimensions:"
+#~ msgstr "Dimensioni Slideshow:"
+
+#~ msgid "Slideshow filmstrip size:"
+#~ msgstr "Slideshow formato pellicola:"
+
+#~ msgid "Title position:"
+#~ msgstr "Titolo di posizione:"
+
+#~ msgid "Description position:"
+#~ msgstr "Descrizione posizione:"
+
+#~ msgid "Enable slideshow Music:"
+#~ msgstr "Abilita Musica presentazione:"
+
+#~ msgid "Add Music"
+#~ msgstr "Aggiungi musica"
+
+#~ msgid "Width of mosaic as a percentage of container's width."
+#~ msgstr ""
+#~ "Larghezza di mosaico come percentuale della larghezza del contenitore."
+
+#~ msgid "Number of image columns:"
+#~ msgstr "Numero di colonne di immag.:"
+
+#~ msgid "Generated thumbnail dimensions:"
+#~ msgstr "Dimensioni miniatura generata:"
+
+#~ msgid ""
+#~ "The maximum size of the generated thumbnail. Its dimensions should be "
+#~ "larger than the ones of the frontend thumbnail."
+#~ msgstr ""
+#~ "La dimensione massima della miniatura generata. Le sue dimensioni "
+#~ "dovrebbero essere più grandi di quelli della miniatura frontend."
+
+#~ msgid "Frontend thumbnail dimensions:"
+#~ msgstr "Dimensioni Frontend miniature:"
+
+#~ msgid ""
+#~ "The default size of the thumbnail which will be displayed in the website."
+#~ msgstr ""
+#~ "La dimensione predefinita della miniatura che verrà visualizzato nel sito "
+#~ "web."
+
+#~ msgid "Show image title:"
+#~ msgstr "Mostra titolo dell-mmagine:"
+
+#~ msgid "Show gallery name:"
+#~ msgstr "Mostra nome galleria:"
+
+#~ msgid "Show description in Vertical Masonry view:"
+#~ msgstr "Mostra descrizione in Vista verticale Massoneria:"
+
+#~ msgid "Enable image pagination:"
+#~ msgstr "Abilita immagine impaginazione:"
+
+#~ msgid "Thumbnail click action:"
+#~ msgstr "Thumbnail clic azione:"
+
+#~ msgid "pen in a new window:"
+#~ msgstr "penna in una nuova finestra:"
+
+#~ msgid "Play icon over the video thumbnail:"
+#~ msgstr "Gioca icona sopra la miniatura del video:"
+
+#~ msgid "Enable image title for Image Browser view:"
+#~ msgstr "Abilita titolo sull-immagine per Image Browser:"
+
+#~ msgid "Enable image description for Image Browser view:"
+#~ msgstr "Abilita descrizione sull-immagine per Image Browser:"
+
+#~ msgid "Image width for Image Browser view:"
+#~ msgstr "Larghezza dell-mmagine per la vista Image Browser:"
+
+#~ msgid "Enable image title for Blog Style view:"
+#~ msgstr "Abilita titolo sull-immagine per Blog Stile:"
+
+#~ msgid "Image width for Blog Style view:"
+#~ msgstr "Larghezza dell-immagine per la vista Blog Stile:"
+
+#~ msgid "Images per page in Blog Style view:"
+#~ msgstr "Immagini per pagina in vista Blog Tag:"
+
+#~ msgid "Enable pagination for Blog Style view:"
+#~ msgstr "Abilita impaginazione per la vista Blog Stile:"
+
+#~ msgid "Gallery autoupdate interval:"
+#~ msgstr "Galleria intervallo di aggiornamento automatico:"
+
+#~ msgid "hour"
+#~ msgstr "ora"
+
+#~ msgid "min"
+#~ msgstr "min"
+
+#~ msgid "Minimum 1 min."
+#~ msgstr "Minimo 1 min."
+
+#~ msgid "Enable creating Instagram galleries."
+#~ msgstr "Abilitare la creazione di gallerie Instagram."
+
+#~ msgid "app Id"
+#~ msgstr "app Id"
+
+#~ msgid "app Secret:"
+#~ msgstr "app Segreto:"
+
+#~ msgid "login / logout:"
+#~ msgstr "login / logout:"
+
+#~ msgid "Max. number of images:"
+#~ msgstr "Max. Numero di immagini:"
+
+#~ msgid "This section allows you to manage the image ratings."
+#~ msgstr "Questa sezione permette di gestire i feedback di immagine."
+
+#~ msgid "Ratings"
+#~ msgstr "Valutazioni"
+
+#~ msgid "Rating"
+#~ msgstr "Valutazione"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "This section allows you to create, edit and delete tags."
+#~ msgstr "Questa sezione permette di creare, modificare e cancellare i tag."
+
+#~ msgid "This section allows you to create, edit and delete themes."
+#~ msgstr "Questa sezione permette di creare, modificare e cancellare i temi."
+
+#~ msgid "This section allows you to add/edit theme."
+#~ msgstr "Questa sezione permette di aggiungere / modificare tema."
+
+#~ msgid "Page Navigation"
+#~ msgstr "Navig. pagina"
+
+#~ msgid "Parameters"
+#~ msgstr "Parametri"
+
+#~ msgid "Margin:"
+#~ msgstr "Margin:"
+
+#~ msgid "Padding:"
+#~ msgstr "Imbottitura:"
+
+#~ msgid "Border width:"
+#~ msgstr "Larghezza del bordo:"
+
+#~ msgid "Border style:"
+#~ msgstr "Stile di bordo:"
+
+#~ msgid "Border color:"
+#~ msgstr "Colore del bordo:"
+
+#~ msgid "Border radius:"
+#~ msgstr "Raggio di confine:"
+
+#~ msgid "Use CSS type values."
+#~ msgstr "Utilizzare valori di tipo CSS."
+
+#~ msgid "Shadow:"
+#~ msgstr "Ombra:"
+
+#~ msgid "Hover effect:"
+#~ msgstr "Hover effetto:"
+
+#~ msgid "Hover effect value:"
+#~ msgstr "Hover Valore Effetto:"
+
+#~ msgid "E.g. Rotate: 10deg, Scale: 1.5, Skew: 10deg."
+#~ msgstr "Es Ruota: 10deg, Scala: 1.5, Skew: 10deg."
+
+#~ msgid "Transition:"
+#~ msgstr "Transizione:"
+
+#~ msgid "Thumbnail background color:"
+#~ msgstr "Thumbnail colore di sfondo:"
+
+#~ msgid "Thumbnail transparency:"
+#~ msgstr "Thumbnail trasparenza:"
+
+#~ msgid "Full background color:"
+#~ msgstr "Il colore di sfondo completa:"
+
+#~ msgid "Full background transparency:"
+#~ msgstr "Sfondo pieno la trasparenza:"
+
+#~ msgid "Alignment:"
+#~ msgstr "Allineamento:"
+
+#~ msgid "Top"
+#~ msgstr "Superiore"
+
+#~ msgid "Bottom"
+#~ msgstr "Fondo"
+
+#~ msgid "Title font size:"
+#~ msgstr "Titolo font size:"
+
+#~ msgid "Title font color:"
+#~ msgstr "Colore del carattere Titolo:"
+
+#~ msgid "Title font family:"
+#~ msgstr "Titolo carattere familiare:"
+
+#~ msgid "Title font weight:"
+#~ msgstr "Titolo spessore del carattere:"
+
+#~ msgid "Title box shadow:"
+#~ msgstr "Scatola Titolo ombra:"
+
+#~ msgid "Title margin:"
+#~ msgstr "Margine Titolo:"
+
+#~ msgid "Transparency:"
+#~ msgstr "Trasparenza:"
+
+#~ msgid "Background color:"
+#~ msgstr "Colore di sfondo:"
+
+#~ msgid "Background transparency:"
+#~ msgstr "La trasparenza di fondo:"
+
+#~ msgid "Description font size:"
+#~ msgstr "Descrizione font size:"
+
+#~ msgid "Description font color:"
+#~ msgstr "Descrizione carattere di colore:"
+
+#~ msgid "Description font family:"
+#~ msgstr "Descrizione carattere familiare:"
+
+#~ msgid "Right, left buttons size:"
+#~ msgstr "A destra, a sinistra formato pulsanti:"
+
+#~ msgid "Play, pause buttons size:"
+#~ msgstr "Play, Pause formato pulsanti:"
+
+#~ msgid "Buttons color:"
+#~ msgstr "Pulsanti colore:"
+
+#~ msgid "Buttons transparency:"
+#~ msgstr "Pulsanti trasparenza:"
+
+#~ msgid "Buttons hover color:"
+#~ msgstr "Pulsanti di puntatore di colore:"
+
+#~ msgid "Right, left buttons width:"
+#~ msgstr "A destra, i tasti a sinistra larghezza:"
+
+#~ msgid "Right, left buttons height:"
+#~ msgstr "Destra, sinistra altezza pulsanti:"
+
+#~ msgid "Right, left buttons background color:"
+#~ msgstr "A destra, i tasti a sinistra il colore di sfondo:"
+
+#~ msgid "Right, left buttons border width:"
+#~ msgstr "A destra, i tasti a sinistra larghezza del bordo:"
+
+#~ msgid "Right, left buttons border style:"
+#~ msgstr "A destra, i tasti a sinistra stile del bordo:"
+
+#~ msgid "Right, left buttons border color:"
+#~ msgstr "A destra, i tasti a sinistra colore del bordo:"
+
+#~ msgid "Right, left buttons border radius:"
+#~ msgstr "A destra, i tasti a sinistra del raggio di confine:"
+
+#~ msgid "Right, left buttons style:"
+#~ msgstr "Destra, sinistra stile pulsanti:"
+
+#~ msgid "Right, left buttons box shadow:"
+#~ msgstr "A destra, i tasti a sinistra scatola di ombra:"
+
+#~ msgid "Filmstrip/Slider bullet position:"
+#~ msgstr "Provino / Slider posizione proiettile:"
+
+#~ msgid "Filmstrip margin:"
+#~ msgstr "Margine Filmstrip:"
+
+#~ msgid "Filmstrip border width:"
+#~ msgstr "Filmstrip larghezza del bordo:"
+
+#~ msgid "Filmstrip border style:"
+#~ msgstr "Filmstrip stile di bordo:"
+
+#~ msgid "Filmstrip border color:"
+#~ msgstr "Filmstrip colore del bordo:"
+
+#~ msgid "Filmstrip border radius:"
+#~ msgstr "Filmstrip Raggio bordo:"
+
+#~ msgid "Filmstrip active border width:"
+#~ msgstr "Provino larghezza del bordo attivo:"
+
+#~ msgid "Filmstrip active border color:"
+#~ msgstr "Provino colore del bordo attivo:"
+
+#~ msgid "Filmstrip deactive transparency: "
+#~ msgstr "Filmstrip Disattiva la trasparenza:"
+
+#~ msgid "Filmstrip right, left buttons background color: "
+#~ msgstr "Destra Provino, pulsanti sinistro colore di sfondo:"
+
+#~ msgid "Filmstrip right, left buttons color:"
+#~ msgstr "Destra Provino, a sinistra i pulsanti di colore:"
+
+#~ msgid "Filmstrip right, left buttons size:"
+#~ msgstr "Destra Provino, sinistra formato pulsanti:"
+
+#~ msgid "Slider bullet width: "
+#~ msgstr "Slider Larghezza proiettile:"
+
+#~ msgid "Slider bullet height:"
+#~ msgstr "Slider altezza proiettile:"
+
+#~ msgid "Slider bullet border radius: "
+#~ msgstr "Slider raggio confine proiettile:"
+
+#~ msgid "Slider bullet background color:"
+#~ msgstr "Cursore del colore proiettile di sfondo:"
+
+#~ msgid "Slider bullet margin:"
+#~ msgstr "Slider margine di proiettile:"
+
+#~ msgid "Slider bullet active background color: "
+#~ msgstr "Slider proiettile colore di sfondo attiva:"
+
+#~ msgid "Slider bullet active border width:"
+#~ msgstr "Slider proiettile larghezza del bordo attivo:"
+
+#~ msgid "Slider bullet active border color: "
+#~ msgstr "Slider proiettile colore del bordo attivo:"
+
+#~ msgid "Title background color: "
+#~ msgstr "Titolo colore di sfondo:"
+
+#~ msgid "Title transparency: "
+#~ msgstr "Titolo della trasparenza:"
+
+#~ msgid "Title border radius:"
+#~ msgstr "Titolo Raggio bordo:"
+
+#~ msgid "Title padding: "
+#~ msgstr "Titolo padding:"
+
+#~ msgid "Title font size: "
+#~ msgstr "Titolo font size:"
+
+#~ msgid "Title color: "
+#~ msgstr "Titolo colore:"
+
+#~ msgid "Description background color:"
+#~ msgstr "Descrizione colore di sfondo:"
+
+#~ msgid "Description transparency:"
+#~ msgstr "Descrizione della trasparenza:"
+
+#~ msgid "Description border radius:"
+#~ msgstr "Descrizione Raggio di confine:"
+
+#~ msgid "Description padding:"
+#~ msgstr "Descrizione padding:"
+
+#~ msgid "Description color:"
+#~ msgstr "Descrizione colore:"
+
+#~ msgid "Full padding:"
+#~ msgstr "Imbottitura completa:"
+
+#~ msgid "Full border radius:"
+#~ msgstr "Raggio di confine completa:"
+
+#~ msgid "Full border width:"
+#~ msgstr "Ampiezza di confine:"
+
+#~ msgid "Full border style:"
+#~ msgstr "Pieno stile confine:"
+
+#~ msgid "Full border color:"
+#~ msgstr "Colore del bordo completa:"
+
+#~ msgid "Box shadow:"
+#~ msgstr "Scatola di ombra:"
+
+#~ msgid "Font size:"
+#~ msgstr "Dimensione del carattere:"
+
+#~ msgid "Font color:"
+#~ msgstr "Colore del carattere:"
+
+#~ msgid "Font family:"
+#~ msgstr "Famiglia di font:"
+
+#~ msgid "Description margin:"
+#~ msgstr "Descrizione margin:"
+
+#~ msgid "Description border width:"
+#~ msgstr "Descrizione larghezza del bordo:"
+
+#~ msgid "Description border style:"
+#~ msgstr "Descrizione stile di bordo:"
+
+#~ msgid "Description border color:"
+#~ msgstr "Descrizione colore del bordo:"
+
+#~ msgid "Thumbnail transition:"
+#~ msgstr "Transizione Miniatura:"
+
+#~ msgid "Font weight:"
+#~ msgstr "Spessore del carattere:"
+
+#~ msgid "Back padding:"
+#~ msgstr "Imbottitura dello schienale:"
+
+#~ msgid "Thumbnail margin:"
+#~ msgstr "Margine Miniatura:"
+
+#~ msgid "Thumbnail padding:"
+#~ msgstr "Imbottitura Miniatura:"
+
+#~ msgid "Thumbnail border width:"
+#~ msgstr "Thumbnail larghezza del bordo:"
+
+#~ msgid "Thumbnail border style:"
+#~ msgstr "Anteprima stile di bordo:"
+
+#~ msgid "Thumbnail border color:"
+#~ msgstr "Thumbnail colore del bordo:"
+
+#~ msgid "Thumbnail border radius:"
+#~ msgstr "Thumbnail Raggio bordo:"
+
+#~ msgid "Thumbnail box shadow:"
+#~ msgstr "Scatola Miniatura ombra:"
+
+#~ msgid "Thumbnail alignment:"
+#~ msgstr "Allineamento Miniatura:"
+
+#~ msgid "Thumbnail hover effect:"
+#~ msgstr "Thumbnail effetto hover:"
+
+#~ msgid "Thumbnails background color:"
+#~ msgstr "Miniature colore di sfondo:"
+
+#~ msgid "Thumbnail background transparency:"
+#~ msgstr "Sfondo Thumbnail trasparenza:"
+
+#~ msgid "Thumbnail div padding:"
+#~ msgstr "Thumbnail div padding:"
+
+#~ msgid "Thumbnail div background color:"
+#~ msgstr "Thumbnail div colore di sfondo:"
+
+#~ msgid "Thumbnail div border width:"
+#~ msgstr "Thumbnail div larghezza del bordo:"
+
+#~ msgid "humbnail div border style:"
+#~ msgstr "humbnail div style border:"
+
+#~ msgid "Thumbnail div border color:"
+#~ msgstr "Thumbnail div colore del bordo:"
+
+#~ msgid "Thumbnail div border radius:"
+#~ msgstr "Thumbnail div Raggio bordo:"
+
+#~ msgid "Separator width:"
+#~ msgstr "Larghezza Separatore:"
+
+#~ msgid "Separator style:"
+#~ msgstr "Stile Separatore:"
+
+#~ msgid "Separator color:"
+#~ msgstr "Separatore colore:"
+
+#~ msgid "Back font size:"
+#~ msgstr "Indietro font size:"
+
+#~ msgid "Back font color:"
+#~ msgstr "Indietro colore del carattere:"
+
+#~ msgid "Back font family:"
+#~ msgstr "Indietro famiglia di caratteri:"
+
+#~ msgid "Back font weight:"
+#~ msgstr "Indietro spessore del carattere:"
+
+#~ msgid "Text div padding:"
+#~ msgstr "Testo div padding:"
+
+#~ msgid "Text div border width:"
+#~ msgstr "Testo larghezza del bordo div:"
+
+#~ msgid "Text border style:"
+#~ msgstr "Testo stile di bordo:"
+
+#~ msgid "Text border color:"
+#~ msgstr "Testo colore del bordo:"
+
+#~ msgid "Text div border radius:"
+#~ msgstr "Testo raggio confine div:"
+
+#~ msgid "Text background color:"
+#~ msgstr "Testo colore di sfondo:"
+
+#~ msgid "Title padding:"
+#~ msgstr "Titolo padding:"
+
+#~ msgid "Title border width:"
+#~ msgstr "Titolo larghezza del bordo:"
+
+#~ msgid "Title border style:"
+#~ msgstr "Titolo stile di bordo:"
+
+#~ msgid "Title border color:"
+#~ msgstr "Titolo colore del bordo:"
+
+#~ msgid "Description font weight:"
+#~ msgstr "Descrizione spessore del carattere:"
+
+#~ msgid "Description more size:"
+#~ msgstr "Descrizione altro formato:"
+
+#~ msgid "Description more color:"
+#~ msgstr "Descrizione più colore:"
+
+#~ msgid "Buttons and title margin:"
+#~ msgstr "Pulsanti e margine titolo:"
+
+#~ msgid "Buttons size:"
+#~ msgstr "Formato dei pulsanti:"
+
+#~ msgid "Buttons and title border width:"
+#~ msgstr "Pulsanti e larghezza del bordo titolo:"
+
+#~ msgid "Buttons and title border style:"
+#~ msgstr "Pulsanti e stile del bordo titolo:"
+
+#~ msgid "Buttons and title border color:"
+#~ msgstr "Pulsanti e colore del bordo titolo:"
+
+#~ msgid "Buttons and title border radius:"
+#~ msgstr "Pulsanti e raggio di confine titolo:"
+
+#~ msgid "Buttons and title background color:"
+#~ msgstr "Pulsanti e colore di sfondo del titolo:"
+
+#~ msgid "Buttons and title background transparency:"
+#~ msgstr "Pulsanti e titolo sfondo la trasparenza:"
+
+#~ msgid "Buttons or title alignment:"
+#~ msgstr "Pulsanti o allineamento titolo:"
+
+#~ msgid "Overlay background color:"
+#~ msgstr "Sovrapposizione colore di sfondo:"
+
+#~ msgid "Overlay background transparency:"
+#~ msgstr "Sfondo Overlay trasparenza:"
+
+#~ msgid "Lightbox background color:"
+#~ msgstr "Lightbox colore di sfondo:"
+
+#~ msgid "Control buttons height:"
+#~ msgstr "Pulsanti di controllo altezza:"
+
+#~ msgid "Control buttons margin (top):"
+#~ msgstr "Pulsanti di controllo del margine (in alto):"
+
+#~ msgid "Control buttons margin (left):"
+#~ msgstr "Pulsanti di controllo del margine (a sinistra):"
+
+#~ msgid "Control buttons position:"
+#~ msgstr "Pulsanti di controllo posizione:"
+
+#~ msgid "Control buttons background color:"
+#~ msgstr "Controllo del colore di sfondo pulsanti:"
+
+#~ msgid "Control buttons container border radius:"
+#~ msgstr "Controllo raggio pulsanti contenitore di confine:"
+
+#~ msgid "Control buttons container background transparency:"
+#~ msgstr "Controllo pulsanti contenitore trasparenza dello sfondo:"
+
+#~ msgid "Control buttons alignment:"
+#~ msgstr "Pulsanti di controllo di allineamento:"
+
+#~ msgid "Control buttons color:"
+#~ msgstr "I pulsanti di controllo del colore:"
+
+#~ msgid "Control buttons transparency:"
+#~ msgstr "I pulsanti di controllo della trasparenza:"
+
+#~ msgid "Toggle button height:"
+#~ msgstr "Toggle altezza bottone:"
+
+#~ msgid "Toggle button width:"
+#~ msgstr "Toggle Larghezza bottone:"
+
+#~ msgid "Close button border radius:"
+#~ msgstr "Chiudi raggio confine bottone:"
+
+#~ msgid "Close button border width:"
+#~ msgstr "Chiudi larghezza del bordo bottone:"
+
+#~ msgid "Close button border style:"
+#~ msgstr "Chiudi stile di bordo pulsante:"
+
+#~ msgid "Close button border color:"
+#~ msgstr "Chiudi colore del bordo bottone:"
+
+#~ msgid "Close button box shadow:"
+#~ msgstr "Chiudi pulsantiera ombra:"
+
+#~ msgid "Close button background color:"
+#~ msgstr "Pulsante di chiusura colore di sfondo:"
+
+#~ msgid "Close button transparency:"
+#~ msgstr "Pulsante di chiusura della trasparenza:"
+
+#~ msgid "Close button width:"
+#~ msgstr "Chiudi Larghezza bottone:"
+
+#~ msgid "Close button height:"
+#~ msgstr "Chiudi altezza bottone:"
+
+#~ msgid "Close button top:"
+#~ msgstr "Chiudi pulsante in alto:"
+
+#~ msgid "Close button right:"
+#~ msgstr "Chiudi tasto destro:"
+
+#~ msgid "Close button size:"
+#~ msgstr "Chiudi dimensioni del pulsante:"
+
+#~ msgid "Close button color:"
+#~ msgstr "Chiudi tasto di colore:"
+
+#~ msgid "Fullscreen close button color:"
+#~ msgstr "Fullscreen pulsante di chiusura colore:"
+
+#~ msgid "Share buttons color:"
+#~ msgstr "Pulsanti di condivisione colore:"
+
+#~ msgid "Right, left buttons transparency:"
+#~ msgstr "A destra, a sinistra i pulsanti della trasparenza:"
+
+#~ msgid "Right, left, close buttons hover color:"
+#~ msgstr "A destra, a sinistra, pulsanti di chiusura librano colore:"
+
+#~ msgid "Right, left buttons color:"
+#~ msgstr "A destra, a sinistra i pulsanti di colore:"
+
+#~ msgid "Filmstrip position:"
+#~ msgstr "Posizione Filmstrip:"
+
+#~ msgid "Filmstrip thumbnail margin:"
+#~ msgstr "Filmstrip margine di miniature:"
+
+#~ msgid "Filmstrip thumbnail border width:"
+#~ msgstr "Provino larghezza del bordo miniatura:"
+
+#~ msgid "Filmstrip thumbnail border style:"
+#~ msgstr "Provino miniatura stile di bordo:"
+
+#~ msgid "Filmstrip thumbnail border color:"
+#~ msgstr "Provino colore del bordo delle miniature:"
+
+#~ msgid "Filmstrip thumbnail border radius:"
+#~ msgstr "Provino raggio confine miniature:"
+
+#~ msgid "Filmstrip thumbnail active border width:"
+#~ msgstr "Miniature dell-area Provino, larghezza del bordo attivo:"
+
+#~ msgid "Filmstrip thumbnail active border color:"
+#~ msgstr "Miniature dell-area Provino, colore del bordo attivo:"
+
+#~ msgid "Filmstrip thumbnail deactive transparency:"
+#~ msgstr "Miniatura Filmstrip Disattiva trasparenza:"
+
+#~ msgid "Filmstrip right, left button background color:"
+#~ msgstr "Destra Provino, sfondo del pulsante sinistro colore:"
+
+#~ msgid "Rating position:"
+#~ msgstr "Posizione Valutazione:"
+
+#~ msgid "Rating alignment:"
+#~ msgstr "Voto di allineamento:"
+
+#~ msgid "Rating icon:"
+#~ msgstr "Voto Icona:"
+
+#~ msgid "Rating color:"
+#~ msgstr "Voto colore:"
+
+#~ msgid "Rating hover color:"
+#~ msgstr "Voto hover colore:"
+
+#~ msgid "Rating size:"
+#~ msgstr "Dimensioni Voto:"
+
+#~ msgid "Rating icon count:"
+#~ msgstr "Conteggio Voto Icona:"
+
+#~ msgid "Rating padding:"
+#~ msgstr "Voto padding:"
+
+#~ msgid "Hit counter position:"
+#~ msgstr "Hit posizione del contatore:"
+
+#~ msgid "Hit counter alignment:"
+#~ msgstr "Hit allineamento contatore:"
+
+#~ msgid "Hit counter background color:"
+#~ msgstr "Hit colore contatore Fondo:"
+
+#~ msgid "Hit counter background transparency:"
+#~ msgstr "Hit Counter trasparenza dello sfondo:"
+
+#~ msgid "Hit counter border width:"
+#~ msgstr "Hit larghezza del bordo del contatore:"
+
+#~ msgid "Hit counter border style:"
+#~ msgstr "Hit stile di bordo contatore:"
+
+#~ msgid "Hit counter border color:"
+#~ msgstr "Hit colore del bordo del contatore:"
+
+#~ msgid "Hit counter border radius:"
+#~ msgstr "Hit raggio confine contatore:"
+
+#~ msgid "Hit counter padding:"
+#~ msgstr "Hit Counter padding:"
+
+#~ msgid "Hit counter margin:"
+#~ msgstr "Hit margine di contatore:"
+
+#~ msgid "Hit counter font color:"
+#~ msgstr "Hit colore contatore dei caratteri:"
+
+#~ msgid "Hit counter font family:"
+#~ msgstr "Hit famiglia contatore dei caratteri:"
+
+#~ msgid "Hit counter font weight:"
+#~ msgstr "Hit contrappeso del carattere:"
+
+#~ msgid "Hit counter font size:"
+#~ msgstr "Hit font size contatore:"
+
+#~ msgid "Info position:"
+#~ msgstr "Info Posizione:"
+
+#~ msgid "Info alignment:"
+#~ msgstr "Info allineamento:"
+
+#~ msgid "Info background color:"
+#~ msgstr "Info colore di sfondo:"
+
+#~ msgid "Info background transparency:"
+#~ msgstr "Info trasparenza dello sfondo:"
+
+#~ msgid "Info border width:"
+#~ msgstr "Info larghezza del bordo:"
+
+#~ msgid "Info border style:"
+#~ msgstr "Info stile di bordo:"
+
+#~ msgid "Info border color:"
+#~ msgstr "Info colore del bordo:"
+
+#~ msgid "Info border radius:"
+#~ msgstr "Info Raggio bordo:"
+
+#~ msgid "Info padding:"
+#~ msgstr "Info padding:"
+
+#~ msgid "Info margin:"
+#~ msgstr "Margine Info:"
+
+#~ msgid "Comments Width:"
+#~ msgstr "Commenti Larghezza:"
+
+#~ msgid "Comments position:"
+#~ msgstr "Commenti Posizione:"
+
+#~ msgid "Comments background color:"
+#~ msgstr "Colore di sfondo Commenti:"
+
+#~ msgid "Comments font size:"
+#~ msgstr "Commenti font size:"
+
+#~ msgid "Comments font color:"
+#~ msgstr "Commenti font color:"
+
+#~ msgid "Comments font family:"
+#~ msgstr "Commenti famiglia di caratteri:"
+
+#~ msgid "Comments author font size:"
+#~ msgstr "Dimensioni Commenti autore del carattere:"
+
+#~ msgid "Comments date font size:"
+#~ msgstr "Dimensione del Data Osservazioni di carattere:"
+
+#~ msgid "Comments body font size:"
+#~ msgstr "Dimensione del carattere corpo Commenti:"
+
+#~ msgid "Comment input border width:"
+#~ msgstr "Commento larghezza del bordo di ingresso:"
+
+#~ msgid "omment input border style:"
+#~ msgstr "Ingresso omment stile di bordo:"
+
+#~ msgid "Comment input border color:"
+#~ msgstr "Commento Ingresso colore del bordo:"
+
+#~ msgid "Comment input border radius:"
+#~ msgstr "Commento Ingresso Raggio bordo:"
+
+#~ msgid "Comment input padding:"
+#~ msgstr "Commento imbottitura di ingresso:"
+
+#~ msgid "Comment input background color:"
+#~ msgstr "Commento colore di sfondo di ingresso:"
+
+#~ msgid "Comment button background color:"
+#~ msgstr "Commento tasto di colore di sfondo:"
+
+#~ msgid "Comment button padding:"
+#~ msgstr "Commento Pulsante padding:"
+
+#~ msgid "Comment button border width:"
+#~ msgstr "Commento larghezza del bordo bottone:"
+
+#~ msgid "Comment button border style:"
+#~ msgstr "Commento Pulsante stile di bordo:"
+
+#~ msgid "Comment button border color:"
+#~ msgstr "Commento Tasto colore del bordo:"
+
+#~ msgid "omment button border radius:"
+#~ msgstr "omment raggio confine bottone:"
+
+#~ msgid "Comment separator width:"
+#~ msgstr "Commento Larghezza separatore:"
+
+#~ msgid "Comment separator style:"
+#~ msgstr "Commento stile separatore:"
+
+#~ msgid "Comment separator color:"
+#~ msgstr "Commento separatore colore:"
+
+#~ msgid "Button background color:"
+#~ msgstr "Pulsante colore di sfondo:"
+
+#~ msgid "Button background transparency:"
+#~ msgstr "Pulsante trasparenza dello sfondo:"
+
+#~ msgid "Button transition:"
+#~ msgstr "Transizione Button:"
+
+#~ msgid "Position:"
+#~ msgstr "Posizione:"
+
+#~ msgid "Numbering:"
+#~ msgstr "Numerazione:"
+
+#~ msgid "Button text:"
+#~ msgstr "Testo pulsante:"
+
+#~ msgid "Arrow"
+#~ msgstr "Arrow"
+
+#~ msgid "Next, previous buttons values."
+#~ msgstr "Valori prossimi, pulsanti precedenti."
+
+#~ msgid "Container opacity:"
+#~ msgstr "Contenitore di opacità:"
+
+#~ msgid "Carousel margin:"
+#~ msgstr "Margine Carousel:"
+
+#~ msgid "Image border width:"
+#~ msgstr "Immagine larghezza del bordo:"
+
+#~ msgid "Image border style:"
+#~ msgstr "Immagine stile di bordo:"
+
+#~ msgid "Image border color:"
+#~ msgstr "Colore del bordo Immag.:"
+
+#~ msgid "Title background color:"
+#~ msgstr "Titolo colore di sfondo:"
+
+#~ msgid "Title opacity:"
+#~ msgstr "Titolo di opacità:"
+
+#~ msgid "Title Font family:"
+#~ msgstr "Titolo Famiglia di caratteri:"
+
+#~ msgid "Title color:"
+#~ msgstr "Titolo colore:"
+
+#~ msgid "Uninstall Photo Gallery"
+#~ msgstr "Disinstallare Galleria fotografica"
+
+#~ msgid ""
+#~ "Deactivating Photo Gallery plugin does not remove any data that may have "
+#~ "been created. To completely remove this plugin, you can uninstall it here."
+#~ msgstr ""
+#~ "Disattivazione Galleria Foto plugin non rimuove tutti i dati che possono "
+#~ "essere stati creati. Per rimuovere completamente questo plugin, è "
+#~ "possibile disinstallarlo qui."
+
+#~ msgid "WARNING:"
+#~ msgstr "ATTENZIONE:"
+
+#~ msgid ""
+#~ "Once uninstalled, this can't be undone. You should use a Database Backup "
+#~ "plugin of WordPress to back up all the data first."
+#~ msgstr ""
+#~ "Una volta disinstallato, questo non può essere annullata. Si consiglia di "
+#~ "utilizzare un plugin Backup Database di WordPress per eseguire il backup "
+#~ "di tutti i dati prima."
+
+#~ msgid "The following Database Tables will be deleted:"
+#~ msgstr "Verranno cancellati i seguenti tabelle di database:"
+
+#~ msgid "Database Tables"
+#~ msgstr "Tabelle di database"
+
+#~ msgid "Delete the folder containing uploaded images."
+#~ msgstr "Eliminare la cartella contenente le immagini caricate."
+
+#~ msgid "Do you really want to uninstall Photo Gallery?"
+#~ msgstr "Vuoi veramente disinstallare Photo Gallery?"
+
+#~ msgid "Click Here"
+#~ msgstr "Clicca qui"
+
+#~ msgid ""
+#~ "To Finish the Uninstallation and Photo Gallery will be Deactivated "
+#~ "Automatically."
+#~ msgstr ""
+#~ "Per completare la disinstallazione e la Photo Gallery verrà "
+#~ "automaticamente disattivata."
+
+#~ msgid "Count:"
+#~ msgstr "Conte:"
+
+#~ msgid "Filmstrip height:"
+#~ msgstr "Altezza Filmstrip:"
+
+#~ msgid "Show Tag Names:"
+#~ msgstr "Mostra i nomi dei tag:"
+
+#~ msgid "Open in: "
+#~ msgstr "Aprire in:"
+
+#~ msgid "page"
+#~ msgstr "pagina"
+
+#~ msgid "lightbox"
+#~ msgstr "lightbox"
+
+#~ msgid "Number (0 for all):"
+#~ msgstr "Numero (0 per tutti):"
+
+#~ msgid "Transparent Background:"
+#~ msgstr "Sfondo trasparente:"
+
+#~ msgid "Background Color:"
+#~ msgstr "Colore di sfondo:"
+
+#~ msgid "Text Color:"
+#~ msgstr "Colore testo:"
+
+#~ msgid "Show comments"
+#~ msgstr "Mostra commenti"
+
+#~ msgid "Share on Facebook"
+#~ msgstr "Condividi su Facebook"
+
+#~ msgid "Share on Twitter"
+#~ msgstr "Condividi su Twitter"
+
+#~ msgid "Share on Google+"
+#~ msgstr "Condividi su Google+"
+
+#~ msgid "Share on Pinterest"
+#~ msgstr "Condividi su Pinterest"
+
+#~ msgid "Share on Tumblr"
+#~ msgstr "Share on Tumblr"
+
+#~ msgid "Show rating"
+#~ msgstr "Mostra classificazione"
+
+#~ msgid "Hits: "
+#~ msgstr "Hits:"
+
+#~ msgid "Rated."
+#~ msgstr "Nominale."
+
+#~ msgid "Not rated yet."
+#~ msgstr "Non ancora valutato."
+
+#~ msgid "Votes: "
+#~ msgstr "Voti:"
+
+#~ msgid "Cancel your rating."
+#~ msgstr "Annulla il tuo voto."
+
+#~ msgid "You have already rated."
+#~ msgstr "Hai già votato."
+
+#~ msgid "Error. Incorrect Verification Code."
+#~ msgstr "Errore. Non corretto del codice di verifica."
+
+#~ msgid "Verification Code"
+#~ msgstr "Codice di verifica"
+
+#~ msgid "Submit"
+#~ msgstr "Presentare"
+
+#~ msgid "Your comment is awaiting moderation"
+#~ msgstr "Il tuo commento è in attesa di moderazione"
+
+#~ msgid "Delete Comment"
+#~ msgstr "Elimina commento"
+
+#~ msgid "Hide rating"
+#~ msgstr "Nascondi Valutazione"
+
+#~ msgid "Photo gallery plugin autoupdate interval."
+#~ msgstr "Galleria fotografica plug intervallo di aggiornamento automatico."
+
+#~ msgid ""
+#~ "Advanced  plugin to create unlimited galleries and albums with all modern "
+#~ "gallery view options."
+#~ msgstr ""
+#~ "Plug avanzata per creare gallerie illimitato e album con tutte le moderne "
+#~ "opzioni di visualizzazione della galleria."
+
+#~ msgid "%s is up to date."
+#~ msgstr "% s è aggiornato."
+
+#~ msgid "Start tour:"
+#~ msgstr "Inizio Tour:"
+
+#~ msgid "Start tour"
+#~ msgstr "Inizia giro"
+
+#~ msgid "Opacity:"
+#~ msgstr "Opacità:"
+
+#~ msgid "Background opacity:"
+#~ msgstr "Opacità di fondo:"
+
+#~ msgid "Add photo gallery."
+#~ msgstr "Aggiungere galleria fotografica"
+
+#~ msgid ""
+#~ "Choose the main settings for gallery/album, also default settings for "
+#~ "different views, which can be changed from shortcode."
+#~ msgstr ""
+#~ "Scegliere le impostazioni principali per la galleria / album, anche "
+#~ "impostazioni predefinite per diversi punti di vista, che può essere "
+#~ "modificato da shortcode."
+
+#~ msgid "Press Add New button to create your first gallery."
+#~ msgstr "Premere il pulsante Aggiungi nuovo per creare la prima galleria."
+
+#~ msgid "Name your gallery and press Next."
+#~ msgstr "Un nome alla galleria e premere Avanti."
+
+#~ msgid ""
+#~ "Press Save button. If you want to additionally create an album navigate "
+#~ "to Gallery/Albums or navigate to Pages section to insert created gallery "
+#~ "into a page."
+#~ msgstr ""
+#~ "Per finalizzare il processo di aggiunta di immagini premere Aggiungi "
+#~ "immagine selezionata galleria. Le immagini verranno aggiunte alla tua "
+#~ "galleria e pop-up sarà chiuso."
+
+#~ msgid "Press Add New button to create your first album."
+#~ msgstr ""
+#~ "Premere il pulsante Aggiungi nuovo per creare il vostro primo album."
+
+#~ msgid "Name your album and press Next"
+#~ msgstr "Un nome al tuo album e premere Avanti"
+
+#~ msgid ""
+#~ "Press Add Albums/Galleries button to choose the galleries and albums "
+#~ "which will be included into newly created album. A pop-up will be opened."
+#~ msgstr ""
+#~ "Premere Aggiungi album / pulsante di gallerie per scegliere le gallerie e "
+#~ "gli album che saranno inclusi in album appena creato. Un pop-up sarà "
+#~ "aperto."
+
+#~ msgid ""
+#~ "Select the gallery/album you want to add to album and press Add button."
+#~ msgstr ""
+#~ "Selezionare la galleria / album che si desidera aggiungere all'album e "
+#~ "premere il pulsante Aggiungi."
+
+#~ msgid ""
+#~ "Click on PG shortcode generator icon (camera icon), which displays Insert "
+#~ "Photo Gallery on hover."
+#~ msgstr ""
+#~ "Clicca sulla pagina shortcode Icon Generator (icona della fotocamera), "
+#~ "che mostra Insert Photo Gallery al passaggio del mouse."
+
+#~ msgid ""
+#~ "Define lightbox settings (except slideshow and carousel with their own "
+#~ "sets of features)."
+#~ msgstr ""
+#~ "Definire le impostazioni lightbox (ad eccezione di presentazione e "
+#~ "giostra con i loro set di caratteristiche)."
+
+#~ msgid "Create a Photo Gallery"
+#~ msgstr "Creare una galleria fotografica"
+
+#~ msgid "Provide Title"
+#~ msgstr "fornire Titolo"
+
+#~ msgid "Add Albums"
+#~ msgstr "Aggiungere gli album"
+
+#~ msgid "Advertisement settings"
+#~ msgstr "impostazioni Pubblicità"
+
+#~ msgid ""
+#~ "Choose the main settings for gallery/album and watermark and social "
+#~ "options, also default settings for different views, which can be changed "
+#~ "from shortcode."
+#~ msgstr ""
+#~ "Scegliere le impostazioni principali per la galleria / album e la "
+#~ "filigrana e le opzioni sociali, anche le impostazioni predefinite per i "
+#~ "diversi punti di vista, che può essere modificato da shortcode."
+
+#~ msgid ""
+#~ "Press Upload files to enable browse images from external directory. If "
+#~ "you plan to create gallery based on images stored in standard WordPress "
+#~ "Media Library enable this option."
+#~ msgstr ""
+#~ "Press Carica file per abilitare Sfoglia le immagini da directory esterna. "
+#~ "Se si prevede di creare galleria sulla base di immagini memorizzate in "
+#~ "WordPress standard di Media Library abilitare questa opzione."
+
+#~ msgid ""
+#~ "If you plan to create gallery based on images stored in standard "
+#~ "WordPress Media Library enable this option."
+#~ msgstr ""
+#~ "Se si prevede di creare galleria sulla base di immagini memorizzate in "
+#~ "WordPress standard di Media Library abilitare questa opzione."
+
+#~ msgid "Press Upload files to enable browse images from external directory."
+#~ msgstr ""
+#~ "Press Carica file per abilitare Sfoglia le immagini da directory esterna."
+
+#~ msgid ""
+#~ "Press Choose button to open up external directory listing to choose the "
+#~ "images. Select the images and press Open button."
+#~ msgstr ""
+#~ "Premere il pulsante Seleziona per aprire elenco di directory esterno per "
+#~ "scegliere le immagini. Selezionare le immagini e premere il pulsante Apri."
+
+#~ msgid "Press publish button to create the page."
+#~ msgstr "Premere il pulsante di pubblicare per creare la pagina."
+
+#~ msgid "Media Library"
+#~ msgstr "media Library"
+
+#~ msgid "First Column"
+#~ msgstr "prima colonna"
+
+#~ msgid "Second Column"
+#~ msgstr "seconda Colonna"
+
+#~ msgid "Third Column"
+#~ msgstr "terza colonna"
+
+#~ msgid "Photo gallery options"
+#~ msgstr "opzioni Galleria fotografica"
+
+#~ msgid "https://web-dorado.com/products/wordpress-photo-gallery-plugin.html"
+#~ msgstr "https://web-dorado.com/products/wordpress-photo-gallery-plugin.html"
+
+#~ msgid ""
+#~ "This plugin is a fully responsive gallery plugin with advanced "
+#~ "functionality.  It allows having different image galleries for your posts "
+#~ "and pages. You can create unlimited number of galleries, combine them "
+#~ "into albums, and provide descriptions and tags."
+#~ msgstr ""
+#~ "Questo plugin è una galleria completamente plug-reattiva con funzionalità "
+#~ "avanzate. Esso permette di avere diverse gallerie di immagini per i "
+#~ "vostri post e pagine. È possibile creare un numero illimitato di "
+#~ "gallerie, combinarle in album, e fornire descrizioni e tag."
+
+#~ msgid "WebDorado"
+#~ msgstr "WebDorado"
+
+#~ msgid "https://web-dorado.com"
+#~ msgstr "https://web-dorado.com"
+
+#~ msgid "GET THIS ADD ON"
+#~ msgstr "Ottenere questo ADD ON"
+
+#~ msgid "View your application's settings."
+#~ msgstr "Visualizzare le impostazioni dell-applicazione."
+
+#~ msgid ""
+#~ "You are About to Uninstall Photo Gallery from WordPress.\\nThis Action Is "
+#~ "Not Reversible."
+#~ msgstr ""
+#~ "Stai per disinstallare Galleria Foto da WordPress. \\\\\\\\\\\\\\\\\\\\\\"
+#~ "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+#~ "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ NQuesta azione non è reversibile."
+
+#~ msgid "Rob"
+#~ msgstr "rapinare"
+
+#~ msgid "What's new:"
+#~ msgstr "Cosa c-è di nuovo:"
+
+#~ msgid "More updates"
+#~ msgstr "Altri aggiornamenti"
+
+#~ msgid "Show less"
+#~ msgstr "Mostra meno"

@@ -1,0 +1,441 @@
+
+.customize-posts-panel-notice {
+	color: #555;
+	background: #fff;
+	padding: 12px 15px;
+	border-top: 1px solid #ddd;
+}
+
+.customize-posts-trashed {
+	font-weight: normal;
+}
+
+#customize-controls .accordion-section.is-trashed .accordion-section-title {
+	opacity: .5;
+}
+
+.customize-section-title > div.customize-setting-validation-message {
+	border-top: 1px solid #ddd;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.customize-control-notifications-container .override-post-conflict {
+	margin-left: 1ex;
+	float: right;
+}
+
+#customize-controls .control-panel-posts .customize-info {
+	margin-bottom: 0;
+}
+
+#customize-controls .customize-posts-navigation {
+	position: absolute;
+	top: 4px;
+	right: 1px;
+	padding: 20px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	-webkit-appearance: none;
+	background: transparent;
+	color: #555;
+	border: none;
+}
+
+#customize-controls .customize-posts-navigation:before {
+	padding: 4px;
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+}
+
+#customize-controls .customize-posts-navigation:focus:before {
+	-webkit-box-shadow:
+		0 0 0 1px #5b9dd9,
+		0 0 2px 1px rgba(30, 140, 190, .8);
+	box-shadow:
+		0 0 0 1px #5b9dd9,
+		0 0 2px 1px rgba(30, 140, 190, .8);
+}
+
+#customize-controls .customize-posts-navigation:focus,
+#customize-controls .customize-posts-navigation:hover {
+	color: #0073aa;
+}
+
+#customize-controls .customize-posts-navigation:focus {
+	outline: none;
+}
+
+.customize-posts-panel-actions {
+	padding: 15px 12px;
+	margin: 0;
+	overflow: hidden;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.customize-posts-panel-actions > .select2-container {
+	-webkit-box-flex: 10;
+	-webkit-flex-grow: 10;
+	-moz-box-flex: 10;
+	-ms-flex-positive: 10;
+	-ms-flex: 10;
+	flex-grow: 10;
+}
+
+.customize-posts-panel-actions .add-new-post-stub {
+	margin-left: 5px;
+	-webkit-box-flex: 10;
+	-webkit-flex-grow: 10;
+	-moz-box-flex: 10;
+	-ms-flex-positive: 10;
+	-ms-flex: 10;
+	flex-grow: 1;
+}
+
+.customize-posts-panel-actions .add-new-post-stub:before {
+	content: "\f132";
+	display: inline-block;
+	position: relative;
+	font: normal 20px/1 dashicons;
+	vertical-align: middle;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#customize-posts-content-editor-pane {
+	border-top: solid 1px #ddd;
+	position: absolute;
+	height: 300px;
+	bottom: -301px;
+	right: 0;
+	left: 0;
+	z-index: 20;
+	background: #f1f1f1;
+	display: block;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	visibility: hidden;
+}
+
+body.customize-posts-content-editor-pane-resize #customize-preview,
+body.customize-posts-content-editor-pane-resize #customize-posts-content-editor-pane {
+	-webkit-transition: none;
+	transition: none;
+}
+
+body.mce-fullscreen.customize-posts-content-editor-pane-open #customize-posts-content-editor-pane {
+	top: 0;
+}
+
+body.customize-posts-content-editor-pane-open #customize-posts-content-editor-pane {
+	bottom: 0;
+	visibility: inherit;
+}
+
+#customize-posts-content-editor-title {
+	position: absolute;
+	text-overflow: ellipsis;
+	width: 10%;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 13px;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	padding: 5px 10px;
+	margin-left: auto;
+	margin-right: auto;
+	top: -2px;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	border-radius: 3px;
+	background: #f5f5f5;
+	font-weight: normal;
+	text-align: center;
+}
+
+#customize-posts-content-editor-pane .wp-editor-tools {
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+#customize-posts-content-editor-pane .wp-media-buttons {
+	padding-left: 5px;
+}
+
+#customize-preview {
+	height: auto;
+}
+
+body.customize-posts-content-editor-pane-open #customize-preview {
+	bottom: 300px;
+}
+
+body.mce-fullscreen #customize-preview {
+	bottom: 0;
+}
+
+body.mce-fullscreen.customize-posts-content-editor-pane-open div.mce-fullscreen {
+	position: relative;
+	left: 0;
+}
+
+#wp-customize-posts-content-editor-container {
+	border-left: 0;
+}
+
+/* vertical resize bar */
+#customize-posts-content-editor-dragbar {
+	top: 0;
+	cursor: row-resize;
+	display: block;
+	height: 4px;
+	position: absolute;
+	width: 100%;
+	z-index: 21;
+}
+
+body.customize-posts-content-editor-pane-resize #customize-preview:before {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 999999;
+}
+
+/* @todo Mobile support for rich text editor */
+
+.wp-customizer .ui-autocomplete.wplink-autocomplete {
+	z-index: 500110; /* originally 100110, but z-index of .wp-full-overlay is 500000 */
+}
+.wp-customizer #wp-link-wrap {
+	z-index: 500105; /* originally 100105, but z-index of .wp-full-overlay is 500000 */
+}
+.wp-customizer #wp_editbtns,
+.wp-customizer #wp_gallerybtns {
+	z-index: 500020; /* originally 100020, but z-index of .wp-full-overlay is 500000 */
+}
+.wp-customizer #TB_overlay,
+.wp-customizer #TB_window {
+	z-index: 500050;
+}
+.wp-customizer .mce-panel,
+.wp-customizer .mce-tooltip {
+	z-index: 500100 !important; /* originally 100100, but z-index of .wp-full-overlay is 500000 */
+}
+
+.customize-posts-content-editor-pane-open .wp-full-overlay.collapsed .wp-full-overlay-sidebar {
+	z-index: 30;
+}
+.customize-posts-content-editor-pane-open .wp-full-overlay.collapsed .collapse-sidebar {
+	bottom: 308px;
+}
+.customize-posts-content-editor-pane-open .wp-full-overlay.expanded .collapse-sidebar {
+	bottom: 0 !important;
+}
+.customize-posts-content-editor-pane-resize .wp-full-overlay.collapsed .collapse-sidebar {
+	-webkit-transition: none;
+	transition: none;
+}
+.customize-posts-content-editor-pane-open.mce-fullscreen .wp-full-overlay.collapsed .collapse-sidebar {
+	bottom: 8px !important;
+}
+
+.select2-container {
+	z-index: 1000000;
+}
+.customize-posts-select2-thumbnail {
+	height: 20px;
+	width: auto;
+	vertical-align: middle;
+}
+.select2-results__option .trashed-title {
+	text-decoration: line-through;
+}
+.customize-control-post_status .trash,
+.customize-control-post_status .untrash {
+	float: right;
+	display: inline-block;
+	margin-top: 5px;
+}
+.customize-control-post_status .trash {
+	color: #a00;
+}
+.customize-control-post_status .trash:hover {
+	color: #f00;
+}
+.customize-control-post_date .customize-control-description {
+	font-style: normal;
+	display: block;
+	margin-bottom: 0;
+}
+
+.customize-control-post_date .time-info-handle {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 4px;
+	display: block;
+	float: right;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #555;
+	margin-top: -28px;
+}
+
+.customize-control-post_date .time-info-handle.active .time-handle-arrow {
+	-webkit-transform: rotate( 180deg );
+	-moz-transform: rotate( 180deg );
+	-ms-transform: rotate( 180deg );
+	-o-transform: rotate( 180deg );
+	transform: rotate( 180deg );
+	vertical-align: bottom;
+	-webkit-transform-origin:56% 50%;
+	-moz-transform-origin:56% 50%;
+	-ms-transform-origin:56% 50%;
+	-o-transform-origin:56% 50%;
+	transform-origin:56% 50%;
+}
+
+.customize-control-post_date .time-details {
+	padding-bottom: 10px;
+}
+
+.customize-control-post_date .customize-control-description[open] {
+	margin-bottom: 5px;
+}
+
+.customize-control-post_date .date-inputs {
+	display: flex;
+	display: -ms-flexbox;
+	align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	justify-content: flex-start;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+}
+
+.customize-control-post_date input.date-input {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	padding-left: 5px; /* 10px padding is not ideal for such small inputs */
+	padding-right: 5px;
+}
+.customize-control-post_date label {
+	display: inline-block; /* To align items when flex is not supported */
+}
+
+.customize-control-post_date .year.date-input {
+	min-width: 4em;
+}
+
+.customize-control-post_date .time-special-char {
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.customize-control-post_date input.date-input::-webkit-outer-spin-button,
+.customize-control-post_date input.date-input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.wrap-reset-time {
+	font-weight: normal;
+	font-size: 75%;
+}
+.customize-control-post_date .reset-time {
+	cursor: pointer;
+	margin-left: 0.25ex;
+	margin-right: 0.25ex;
+}
+
+@media screen and ( max-width: 782px ) {
+	.customize-control-post_date select {
+		height: 40px;
+	}
+	
+	#customize-posts-content-editor-title{
+		top: 9px;
+	}
+}
+
+/* Dropdown Pages */
+.customize-posts-dropdown-pages-inputs {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.customize-posts-dropdown-pages-inputs > select {
+	-webkit-box-flex: 1000;
+	-webkit-flex-grow: 1000;
+	-moz-box-flex: 1000;
+	-ms-flex-positive: 1000;
+	-ms-flex: 1000;
+	flex-grow: 1000;
+}
+.customize-posts-dropdown-pages-inputs > select,
+.customize-posts-dropdown-pages-inputs > .button-secondary.edit-page {
+	margin-right: 5px;
+}
+.customize-posts-dropdown-pages-inputs > button.button-secondary {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-moz-box-flex: 1;
+	-ms-flex-positive: 1;
+	-ms-flex: 1;
+	flex-grow: 1;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.customize-posts-dropdown-pages-inputs > button:before {
+	display: inline-block;
+	position: relative;
+	font: normal 20px/1 dashicons;
+	vertical-align: middle;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.customize-posts-dropdown-pages-inputs > button.create-page:before {
+	content: "\f132";
+}
+.customize-posts-dropdown-pages-inputs > button.edit-page:before {
+	content: "\f464";
+	top: -2px;
+}
+
+.wp-core-ui .customize-posts-edit-nav-menu-item-original-object {
+	float: right;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.wp-core-ui .customize-posts-edit-nav-menu-item-original-object:before {
+	display: inline-block;
+	position: relative;
+	font: normal 20px/1 dashicons;
+	vertical-align: middle;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\f464";
+	top: -2px;
+}

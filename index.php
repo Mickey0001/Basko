@@ -1,20 +1,17 @@
-<!-- Header -->
-<?php include './includes/header.php';?>
-<!-- Navbar -->
-<?php include './includes/navbar.php';?>
-<!-- Navbar on small screens -->
-<?php include './includes/mobile_nav.php';?>
-<!-- Automatic Slideshow Images -->
-<?php include './includes/slider.php';?>
-<!-- The Band Section -->
-<?php include './includes/band.php';?>
-<!-- The Tour Section -->
-<?php include './includes/video.php';?>
-<!-- Music Section -->
-<?php include './includes/music.php';?>
-<!-- Photos Section -->
-<?php include './includes/photos.php';?>
-<!-- The Contact Section -->
-<?php include './includes/contact.php';?>
-<!-- Footer -->
-<?php include './includes/footer.php';?>
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
+
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
+
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
